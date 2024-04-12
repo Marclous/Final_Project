@@ -10,8 +10,8 @@
   "name":"oAssaultRifleBullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Gunslinger",
+    "path":"folders/Objects/Gunslinger.yy",
   },
   "parentObjectId":{
     "name":"oRifleBullet",

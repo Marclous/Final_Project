@@ -10,8 +10,8 @@
   "name":"oGun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Gunslinger",
+    "path":"folders/Objects/Gunslinger.yy",
   },
   "parentObjectId":null,
   "persistent":false,
