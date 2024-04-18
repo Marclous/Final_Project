@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Maya",
+    "path":"folders/Sprites/Maya.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

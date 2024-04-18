@@ -27,3 +27,6 @@ global.enemyRoomMax = 100
 global.activeEnemyMax = 40
 global.totalEnemiesSpawned = 0
 global.enemyKillCount = 0
+global.currentHero = 0
+global.heroes = []
+
