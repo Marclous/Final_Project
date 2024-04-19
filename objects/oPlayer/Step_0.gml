@@ -149,7 +149,6 @@ if (knockback_speed > 0) {
 if !audio_group_is_loaded(audiogroup_default) {
 	audio_group_load(audiogroup_default)
 }
-
 if hit_point < 1 {
 	instance_create_layer(x,y,"Instances",oPlayerCorpse)
 	instance_create_layer(x,y,"Instances",oDeathScreen)
