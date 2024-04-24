@@ -98,7 +98,7 @@ if shootkey && shootTimer <= 0{
 #region
 image_speed = 1
 if xvelocity !=0 image_xscale = sign(xvelocity)
-if xvelocity != 0 && gothit = false {
+if (xvelocity != 0 && gothit == false) || (yvelocity !=0 && gothit == false ){
 		sprite_index = sPlayerWalk
 		/*if !audio_is_playing(sdStep) {
 			audio_play_sound(sdStep,1,false)
