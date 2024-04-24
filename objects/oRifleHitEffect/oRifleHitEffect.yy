@@ -10,8 +10,8 @@
   "name":"oRifleHitEffect",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gunslinger",
-    "path":"folders/Objects/Gunslinger.yy",
+    "name":"Maya",
+    "path":"folders/Objects/Maya.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHitEffect",
-    "path":"sprites/sHitEffect/sHitEffect.yy",
+    "name":"sRifleHitEffect",
+    "path":"sprites/sRifleHitEffect/sRifleHitEffect.yy",
   },
   "spriteMaskId":null,
   "visible":true,
