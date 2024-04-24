@@ -4,8 +4,8 @@ var _angle = 0
 
 image_angle = _angle
 
-if(allow_shoot == true) && instance_exists(oPlayer){
-	_angle = point_direction(x,y,oPlayer.x,oPlayer.y)
+if(allow_shoot == true) && instance_exists(oMaya){
+	_angle = point_direction(x,y,oMaya.x,oMaya.y)
 	direction = _angle
 	var effect_x = x + lengthdir_x(30, _angle);
 	var effect_y = y + lengthdir_y(30, _angle);
@@ -21,7 +21,7 @@ if(allow_shoot == true) && instance_exists(oPlayer){
 	audio_play_sound(sdEnemyShoot,1,false)
 	with(_enemy_bullet){
 		speed = 1;
-		direction = point_direction(x,y,oPlayer.x,oPlayer.y); 
+		direction = point_direction(x,y,oMaya.x,oMaya.y); 
 		image_angle = direction
 		}
 	allow_shoot = false;

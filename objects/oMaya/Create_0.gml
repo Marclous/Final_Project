@@ -14,6 +14,10 @@ hit_point = 15
 knockback_speed = 0;
 knockback_direction = 0;
 
+global.heroes[0] = id
+global.currentHero = id
+name = "Maya"
+
 //player_gun = instance_create_depth(x,y,depth,oGun)
 
 if !(audio_play_sound(sdMusic,1,true)){

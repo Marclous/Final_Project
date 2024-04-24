@@ -156,3 +156,16 @@ if hit_point < 1 {
 	instance_destroy()
 	
 }
+
+if global.currentHero != id && visible == true{
+	show_debug_message("deactivate maya")
+	global.currentHero.x = x
+	global.currentHero.y = y
+	instance_deactivate_object(id)
+	visible = false
+}else if  global.currentHero == id && visible == false{
+	show_debug_message("activate maya")
+	instance_activate_object(id)
+	visible = true
+}
+	
