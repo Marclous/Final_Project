@@ -17,5 +17,7 @@ knockback_direction = 0;
 water = 0
 stopMotion = true
 
+CD = 0
+CD_Space = false
 
 instance_create_layer(x,y,"Instances",oPaintGun)

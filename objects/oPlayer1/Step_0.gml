@@ -96,10 +96,13 @@ if(keyboard_check(vk_space)&& water == 0)
 	sprite_index = spr_girl_2
 	image_index = 0
 
+	CD = 0
+
 }
 
 if(water == 1&&!keyboard_check(vk_space))
 {
+	
 	water = 0
 	alarm_set(0,-1)
 	sprite_index = spr_girl
@@ -111,15 +114,41 @@ if(water == 2)
 {
 	stopMotion = false
 	sprite_index = spr_shadow
+	//swimming animation: TBD
+	
 	if(!keyboard_check(vk_space))
 	{
-		water = 0
-		sprite_index = spr_girl
-		
-		//jumping out of water animation: TBD
+		CD_Space = true
 	}
 	
-	show_debug_message("water2")
+	if(CD_Space)
+	{
+		if(keyboard_check(vk_space))
+		{
+			CD_Space = false
+			water = -1
+			sprite_index = spr_girl
+			
+			instance_create_layer()
+		
+			//jumping out of water animation: TBD
+		}
+	}
+	
+	if(CD >= 360)
+	{
+		CD_Space = false
+		
+		water = -1
+		sprite_index = spr_girl
+	}	
 	
 }
 
+if(water == -1 && !keyboard_check(vk_space))
+{
+	water = 0
+}
+
+
+CD++

@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Blender",
-    "path":"folders/Sprites/Blender.yy",
+    "name":"Venture",
+    "path":"folders/Sprites/Venture.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

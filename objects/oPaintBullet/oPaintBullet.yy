@@ -3,16 +3,20 @@
   "%Name":"oPaintBullet",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oPaintBullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blender",
-    "path":"folders/Objects/Blender.yy",
+    "name":"Venture",
+    "path":"folders/Objects/Venture.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oDamageEnemy",
+    "path":"objects/oDamageEnemy/oDamageEnemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
