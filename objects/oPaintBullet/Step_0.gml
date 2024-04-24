@@ -1,18 +1,22 @@
-if(timer<60)
-{
-	timer++
-}
-else
-{
+if place_meeting(x,y,oSolidWall) {
+	audio_play_sound(sdBulletHitWall,1,false)
+	var effect_instance = instance_create_layer(x, y, "Effects", oPaintHitEffect);
 	instance_destroy()
 }
 
-surface_set_target(oPaint.surface1)
-gpu_set_blendmode(bm_normal)
-draw_set_color(c_blue)
-draw_circle(x,y,12,false)
+if place_meeting(x,y, oEnemy) {
+	audio_play_sound(sdBulletHitWall,1,false)
+	var effect_instance = instance_create_layer(x, y, "Effects", oPaintHitEffect);
+	alarm[0] = 1
+	
+}
 
-surface_reset_target()
-surface_set_target(oPaint.surface2)
-draw_surface(oPaint.surface1,0,0)
-surface_reset_target()
+dir = direction
+image_angle = direction
+
+xspd = lengthdir_x(spd,dir)
+yspd = lengthdir_y(spd,dir)
+
+x+=xspd
+y+=yspd
+

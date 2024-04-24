@@ -1,5 +1,12 @@
-timer = 0
+event_inherited()
+destroy = false
+bullet_id = id;
 
-speed = 3
-direction = oPaintGun.direction
-image_angle = direction
+dir = 0
+spd = 5
+xspd = 0
+yspd = 0
+damage = 5
+
+
+

@@ -10,8 +10,8 @@
   "name":"oPaintGun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blender",
-    "path":"folders/Objects/Blender.yy",
+    "name":"Venture",
+    "path":"folders/Objects/Venture.yy",
   },
   "parentObjectId":null,
   "persistent":false,

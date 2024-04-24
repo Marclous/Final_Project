@@ -79,6 +79,48 @@ if(water == 2)
 }
 
 
+//collision
+if place_meeting(x,y,oEnemyBullet) {
+	gothit = true
+	hit_point-=1
+	show_debug_message(hit_point)
+	//sprite_index =
+	//受击动画
+	
+	screenshake(4,20)
+	var bullet = instance_place(x, y, oEnemyBullet);
+	if (bullet != noone) {
+		    // Collision detected, now apply knockback
+			knockback_speed = 5;
+		    knockback_direction = point_direction(bullet.x, bullet.y, x, y);
+
+		}
+	instance_destroy(bullet)
+	alarm[0] = 20	
+}
+if (knockback_speed > 0) {
+    // Apply movement in the knockback direction
+    if !place_meeting(x,y, oSolidWall){
+		x += lengthdir_x(knockback_speed, knockback_direction);
+		y += lengthdir_y(knockback_speed, knockback_direction);
+	}else if place_meeting(x,y,oSolidWall) {
+		x -= lengthdir_x(knockback_speed, knockback_direction);
+		y -= lengthdir_y(knockback_speed, knockback_direction);
+	}
+
+    // Gradually reduce the knockback speed to simulate friction or resistance
+    knockback_speed -= 1; 
+
+    // Prevent knockback speed from becoming negative
+    if (knockback_speed < 0) {
+        knockback_speed = 0;
+		
+    }
+}
+
+
+
+
 #endregion
 
 //Paint Release
@@ -96,10 +138,13 @@ if(keyboard_check(vk_space)&& water == 0)
 	sprite_index = spr_girl_2
 	image_index = 0
 
+	CD = 0
+
 }
 
 if(water == 1&&!keyboard_check(vk_space))
 {
+	
 	water = 0
 	alarm_set(0,-1)
 	sprite_index = spr_girl
@@ -111,15 +156,41 @@ if(water == 2)
 {
 	stopMotion = false
 	sprite_index = spr_shadow
+	//swimming animation: TBD
+	
 	if(!keyboard_check(vk_space))
 	{
-		water = 0
-		sprite_index = spr_girl
-		
-		//jumping out of water animation: TBD
+		CD_Space = true
 	}
 	
-	show_debug_message("water2")
+	if(CD_Space)
+	{
+		if(keyboard_check(vk_space))
+		{
+			CD_Space = false
+			water = -1
+			sprite_index = spr_girl
+			
+			instance_create_layer()
+		
+			//jumping out of water animation: TBD
+		}
+	}
+	
+	if(CD >= 360)
+	{
+		CD_Space = false
+		
+		water = -1
+		sprite_index = spr_girl
+	}	
 	
 }
 
+if(water == -1 && !keyboard_check(vk_space))
+{
+	water = 0
+}
+
+
+CD++
