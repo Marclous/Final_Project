@@ -60,6 +60,7 @@
     {"id":{"name":"oPaint","path":"objects/oPaint/oPaint.yy",},},
     {"id":{"name":"oPaintBullet","path":"objects/oPaintBullet/oPaintBullet.yy",},},
     {"id":{"name":"oPaintGun","path":"objects/oPaintGun/oPaintGun.yy",},},
+    {"id":{"name":"oPaintHitEffect","path":"objects/oPaintHitEffect/oPaintHitEffect.yy",},},
     {"id":{"name":"oPlayerCorpse","path":"objects/oPlayerCorpse/oPlayerCorpse.yy",},},
     {"id":{"name":"oRifleBullet","path":"objects/oRifleBullet/oRifleBullet.yy",},},
     {"id":{"name":"oRifleBulletDecal","path":"objects/oRifleBulletDecal/oRifleBulletDecal.yy",},},
@@ -74,6 +75,7 @@
     {"id":{"name":"oVenture","path":"objects/oVenture/oVenture.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"id":{"name":"functions","path":"scripts/functions/functions.yy",},},
     {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},},
     {"id":{"name":"scr_topic","path":"scripts/scr_topic/scr_topic.yy",},},
@@ -144,6 +146,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
