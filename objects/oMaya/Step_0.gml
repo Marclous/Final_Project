@@ -112,7 +112,7 @@ if (xvelocity != 0 && gothit == false) || (yvelocity !=0 && gothit == false ){
 //Collison
 if place_meeting(x,y,oEnemyBullet) {
 	gothit = true
-	hit_point-=1
+	global.mayahp-=1
 	show_debug_message(hit_point)
 	sprite_index = sPlayerGotHit
 	screenshake(4,20)
@@ -149,7 +149,7 @@ if (knockback_speed > 0) {
 if !audio_group_is_loaded(audiogroup_default) {
 	audio_group_load(audiogroup_default)
 }
-if hit_point < 1 {
+if global.mayahp < 1 {
 	instance_create_layer(x,y,"Instances",oPlayerCorpse)
 	instance_create_layer(x,y,"Instances",oDeathScreen)
 	instance_destroy()

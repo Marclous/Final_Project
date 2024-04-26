@@ -82,7 +82,7 @@ if(water == 2)
 //collision
 if place_meeting(x,y,oEnemyBullet) {
 	gothit = true
-	hit_point-=1
+	global.venturehp-=1
 	show_debug_message(hit_point)
 	//sprite_index =
 	//受击动画
@@ -194,3 +194,11 @@ if(water == -1 && !keyboard_check(vk_space))
 
 
 CD++
+
+if global.venturehp < 1 {
+	//todo:change player corpse to venture corpse
+	instance_create_layer(x,y,"Instances",oPlayerCorpse)
+	instance_create_layer(x,y,"Instances",oDeathScreen)
+	instance_destroy()
+	
+}
