@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oHeroManager",
+  "%Name":"oVentureCorpse",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oHeroManager",
+  "name":"oVentureCorpse",
   "overriddenProperties":[],
   "parent":{
-    "name":"Others",
-    "path":"folders/Objects/Others.yy",
+    "name":"Venture",
+    "path":"folders/Objects/Venture.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sVentureDie",
+    "path":"sprites/sVentureDie/sVentureDie.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

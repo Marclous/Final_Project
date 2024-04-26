@@ -6,6 +6,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oPlayer1",
@@ -33,8 +34,13 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+<<<<<<< Updated upstream:objects/oPlayer1/oPlayer1.yy
     "name":"spr_girl",
     "path":"sprites/spr_girl/spr_girl.yy",
+=======
+    "name":"sVentureIdle",
+    "path":"sprites/sVentureIdle/sVentureIdle.yy",
+>>>>>>> Stashed changes:objects/oVenture/oVenture.yy
   },
   "spriteMaskId":null,
   "visible":true,

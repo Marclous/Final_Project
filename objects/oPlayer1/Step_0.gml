@@ -62,7 +62,7 @@ if(water == 0)
 	image_speed = 1
 	if xvelocity !=0 image_xscale = sign(xvelocity)
 	if xvelocity != 0 ||yvelocity !=0 && gothit = false {
-			sprite_index = spr_girl_1
+			sprite_index = sVentureRun
 			/*if !audio_is_playing(sdStep) {
 				audio_play_sound(sdStep,1,false)
 			}*/
@@ -135,7 +135,7 @@ if(keyboard_check(vk_space)&& water == 0)
 	stopMotion = true
 	alarm_set(0,30)
 	water = 1
-	sprite_index = spr_girl_2
+	sprite_index = sVentureDive
 	image_index = 0
 
 	CD = 0
@@ -148,7 +148,6 @@ if(water == 1&&!keyboard_check(vk_space))
 	water = 0
 	alarm_set(0,-1)
 	sprite_index = spr_girl
-
 	//jumping out of water animation: TBD
 }
 
@@ -169,9 +168,9 @@ if(water == 2)
 		{
 			CD_Space = false
 			water = -1
-			sprite_index = spr_girl
+			sprite_index = sVentureDive
+			alarm[1] = 15
 			
-			instance_create_layer()
 		
 			//jumping out of water animation: TBD
 		}
@@ -182,12 +181,13 @@ if(water == 2)
 		CD_Space = false
 		
 		water = -1
-		sprite_index = spr_girl
+		sprite_index = sVentureDive
+		alarm[1] = 15
 	}	
 	
 }
 
-if(water == -1 && !keyboard_check(vk_space))
+if(water == -1 && !keyboard_check(vk_space)&&alarm[1] <0)
 {
 	water = 0
 }
