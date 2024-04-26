@@ -1,4 +1,10 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oPaint","order":4,"path":"objects/oPaint/oPaint.yy",},
+    {"name":"oPaintBullet","order":3,"path":"objects/oPaintBullet/oPaintBullet.yy",},
+    {"name":"oPlayer1","order":2,"path":"objects/oPlayer1/oPlayer1.yy",},
+    {"name":"oRifleBulletDecal30","order":1,"path":"objects/oRifleBulletDecal30/oRifleBulletDecal30.yy",},
+    {"name":"oPaintHitEffect","order":5,"path":"objects/oPaintHitEffect/oPaintHitEffect.yy",},
+  ],
 }

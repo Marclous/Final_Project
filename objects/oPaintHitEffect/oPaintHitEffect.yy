@@ -12,17 +12,6 @@
   "parent":{
     "name":"Venture",
     "path":"folders/Objects/Venture.yy",
-  "%Name":"oPlaceHolder",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
-  "managed":true,
-  "name":"oPlaceHolder",
-  "overriddenProperties":[],
-  "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -43,10 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHitEffect",
-    "path":"sprites/sHitEffect/sHitEffect.yy",
-    "name":"sSpawner",
-    "path":"sprites/sSpawner/sSpawner.yy",
+    "name":"sRifleHitEffect",
+    "path":"sprites/sRifleHitEffect/sRifleHitEffect.yy",
   },
   "spriteMaskId":null,
   "visible":true,
