@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oRifleBullet",
+  "%Name":"oRifleBulletDecal30",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oRifleBullet",
+  "name":"oRifleBulletDecal30",
   "overriddenProperties":[],
   "parent":{
-    "name":"Maya",
-    "path":"folders/Objects/Maya.yy",
+    "name":"Venture",
+    "path":"folders/Objects/Venture.yy",
   },
-  "parentObjectId":{
-    "name":"oDamageEnemy",
-    "path":"objects/oDamageEnemy/oDamageEnemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRifleBullet",
-    "path":"sprites/sRifleBullet/sRifleBullet.yy",
+    "name":"sRifleBulletDecal",
+    "path":"sprites/sRifleBulletDecal/sRifleBulletDecal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

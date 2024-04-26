@@ -40,7 +40,7 @@ switch state {
 	break;
 }
 
-if place_meeting(x,y,oRifleBullet)  {
+if (place_meeting(x,y,oRifleBullet) ||place_meeting(x,y,oPaintBullet)) {
 	var _effect = instance_create_layer(x, y, "Effects", oExplode);
 	takeDamage()
 	invicible = true
