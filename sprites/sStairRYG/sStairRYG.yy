@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Tile_Stair",
-    "path":"folders/Sprites/Tile_Stair.yy",
+    "path":"folders/Sprites/TileSet/Tile_Stair.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

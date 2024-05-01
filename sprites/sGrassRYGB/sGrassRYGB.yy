@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Tile_grass",
-    "path":"folders/Sprites/Tile_grass.yy",
+    "path":"folders/Sprites/TileSet/Tile_grass.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

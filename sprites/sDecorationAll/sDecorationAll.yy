@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Tile_Decoration",
-    "path":"folders/Sprites/Tile_Decoration.yy",
+    "path":"folders/Sprites/TileSet/Tile_Decoration.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
