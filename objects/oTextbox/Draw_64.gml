@@ -15,7 +15,7 @@ if sprite_exists(portrait_sprite) {
 	var draw_portrait_xscale = 1
 	
 	if portrait_side == PORTRAIT_SIDE.LEFT {
-		draw_text_x += portrait_width + portrait_x + padding
+		draw_text_x += padding
 	}else {
 		draw_portrait_x = x + width - portrait_width - portrait_x
 		draw_portrait_xscale = -1

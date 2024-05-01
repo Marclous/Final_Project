@@ -9,26 +9,26 @@ input_delay = max_input_delay
 //Poition
 margin = 16
 padding = 8
-width = display_get_gui_width() - margin * 2
+width = display_get_gui_width() - margin * 2 - 250
 height = sprite_height
 
-x = (display_get_gui_width() - width) / 2
+x = (display_get_gui_width() - width)
 y = display_get_gui_height() - height - margin
 
 
 //Portrait
-portrait_x = padding
-portrait_y = padding
+portrait_x = -250
+portrait_y = 0
 
 //Speaker
-speaker_x = padding
+speaker_x = -200
 speaker_y = 0
 speaker_font = fn_name
 speaker_color = #464633
 
 //Text
 text_font = fnt_Text
-text_color = c_white
+text_color = c_black
 text_speed = 0.2
 text_x = padding
 text_y = padding

@@ -174,7 +174,7 @@ if keyboard_check_pressed(ord("E")) {
     var found = false;
     for (var dx = -interactionRadius; dx <= interactionRadius; dx += 16) { // Adjust the step as needed
         for (var dy = -interactionRadius; dy <= interactionRadius; dy += 16) { // Adjust the step as needed
-			if (place_meeting(x + dx, y + dy, oTutorial)) {
+			if (place_meeting(x + dx, y + dy, o)) {
 				startDialogue("Tutorial")
 			}
 		}

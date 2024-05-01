@@ -21,8 +21,10 @@
   "ResourceOrderSettings":[
     {"name":"fn_name","order":1,"path":"fonts/fn_name/fn_name.yy",},
     {"name":"fnt_Text","order":2,"path":"fonts/fnt_Text/fnt_Text.yy",},
+    {"name":"o","order":15,"path":"objects/o/o.yy",},
     {"name":"oAssaultRifleBullet","order":1,"path":"objects/oAssaultRifleBullet/oAssaultRifleBullet.yy",},
     {"name":"oAssaultRifleHitEffect","order":2,"path":"objects/oAssaultRifleHitEffect/oAssaultRifleHitEffect.yy",},
+    {"name":"oTutorial","order":13,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oDamageEnemy","order":1,"path":"objects/oDamageEnemy/oDamageEnemy.yy",},
     {"name":"oDamageParent","order":2,"path":"objects/oDamageParent/oDamageParent.yy",},
     {"name":"oDeathScreen","order":3,"path":"objects/oDeathScreen/oDeathScreen.yy",},
@@ -48,7 +50,6 @@
     {"name":"oSolidWall","order":11,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oSpawner","order":12,"path":"objects/oSpawner/oSpawner.yy",},
     {"name":"oTextbox","order":13,"path":"objects/oTextbox/oTextbox.yy",},
-    {"name":"oTutorial","order":15,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oVenture","order":4,"path":"objects/oVenture/oVenture.yy",},
     {"name":"oVentureCorpse","order":6,"path":"objects/oVentureCorpse/oVentureCorpse.yy",},
     {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
