@@ -183,7 +183,7 @@
     {"id":{"name":"tGrassRYG","path":"tilesets/tGrassRYG/tGrassRYG.yy",},},
     {"id":{"name":"tGrassRYGB","path":"tilesets/tGrassRYGB/tGrassRYGB.yy",},},
     {"id":{"name":"tGrassRYGBP","path":"tilesets/tGrassRYGBP/tGrassRYGBP.yy",},},
-    {"id":{"name":"tCeiling","path":"tilesets/tCeiling/tCeiling.yy",},},
+    {"id":{"name":"tCeil","path":"tilesets/tCeil/tCeil.yy",},},
     {"id":{"name":"TileSet8","path":"tilesets/TileSet8/TileSet8.yy",},},
     {"id":{"name":"tPlant","path":"tilesets/tPlant/tPlant.yy",},},
     {"id":{"name":"tPlantShadow","path":"tilesets/tPlantShadow/tPlantShadow.yy",},},

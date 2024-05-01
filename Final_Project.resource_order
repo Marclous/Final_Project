@@ -145,7 +145,7 @@
     {"name":"tGrassRYG","order":3,"path":"tilesets/tGrassRYG/tGrassRYG.yy",},
     {"name":"tGrassRYGB","order":4,"path":"tilesets/tGrassRYGB/tGrassRYGB.yy",},
     {"name":"tGrassRYGBP","order":5,"path":"tilesets/tGrassRYGBP/tGrassRYGBP.yy",},
-    {"name":"tCeiling","order":15,"path":"tilesets/tCeiling/tCeiling.yy",},
+    {"name":"tCeil","order":15,"path":"tilesets/tCeil/tCeil.yy",},
     {"name":"TileSet8","order":9,"path":"tilesets/TileSet8/TileSet8.yy",},
     {"name":"tPlant","order":4,"path":"tilesets/tPlant/tPlant.yy",},
     {"name":"tPlantShadow","order":7,"path":"tilesets/tPlantShadow/tPlantShadow.yy",},
