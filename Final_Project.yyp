@@ -74,7 +74,6 @@
 <<<<<<< Updated upstream
 =======
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},},
-    {"id":{"name":"oVenture","path":"objects/oVenture/oVenture.yy",},},
     {"id":{"name":"oVentureCorpse","path":"objects/oVentureCorpse/oVentureCorpse.yy",},},
 >>>>>>> Stashed changes
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
@@ -136,7 +135,10 @@
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},},
     {"id":{"name":"sVentureDive","path":"sprites/sVentureDive/sVentureDive.yy",},},
     {"id":{"name":"sVentureIdle","path":"sprites/sVentureIdle/sVentureIdle.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"sVentureRun","path":"sprites/sVentureRun/sVentureRun.yy",},},
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     {"id":{"name":"sWall_1","path":"sprites/sWall_1/sWall_1.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},

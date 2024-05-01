@@ -1,8 +1,11 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[],
 =======
+=======
+>>>>>>> Stashed changes
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
@@ -50,7 +53,6 @@
     {"name":"oSolidWall","order":11,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oSpawner","order":12,"path":"objects/oSpawner/oSpawner.yy",},
     {"name":"oTextbox","order":13,"path":"objects/oTextbox/oTextbox.yy",},
-    {"name":"oVenture","order":4,"path":"objects/oVenture/oVenture.yy",},
     {"name":"oVentureCorpse","order":6,"path":"objects/oVentureCorpse/oVentureCorpse.yy",},
     {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
     {"name":"Tutorial","order":1,"path":"rooms/Tutorial/Tutorial.yy",},
@@ -102,8 +104,11 @@
     {"name":"sStruct","order":25,"path":"sprites/sStruct/sStruct.yy",},
     {"name":"sTextBox","order":43,"path":"sprites/sTextBox/sTextBox.yy",},
     {"name":"sVentureDive","order":2,"path":"sprites/sVentureDive/sVentureDive.yy",},
+<<<<<<< Updated upstream
     {"name":"sVentureIdle","order":7,"path":"sprites/sVentureIdle/sVentureIdle.yy",},
     {"name":"sVentureRun","order":1,"path":"sprites/sVentureRun/sVentureRun.yy",},
+=======
+>>>>>>> Stashed changes
     {"name":"sWall_1","order":16,"path":"sprites/sWall_1/sWall_1.yy",},
     {"name":"sWall","order":8,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWallTile","order":24,"path":"sprites/sWallTile/sWallTile.yy",},
@@ -116,5 +121,8 @@
     {"name":"tStruct","order":6,"path":"tilesets/tStruct/tStruct.yy",},
     {"name":"tWallTile","order":5,"path":"tilesets/tWallTile/tWallTile.yy",},
   ],
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
