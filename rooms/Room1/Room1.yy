@@ -3210,7 +3210,7 @@
           -5,0,1,115,-172,-2147483648,2,81,82,-58,-2147483648,2,97,98,-14,-2147483648,2,20,21,-42,-2147483648,
           2,113,114,-14,-2147483648,2,36,37,-58,-2147483648,2,52,53,-507,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tStruct","path":"tilesets/tStruct/tStruct.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"StoneGround","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"StoneGround","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[-2040,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tStoneGround","path":"tilesets/tStoneGround/tStoneGround.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"StoneGround","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"StoneGround","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[-2040,-2147483648,],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Grass","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Grass","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
           -142,-2147483648,4,12,13,12,12,-17,-2147483648,-4,0,-34,-2147483648,6,12,23,60,61,23,12,-16,-2147483648,
           -4,0,-34,-2147483648,6,12,32,68,69,32,12,-16,-2147483648,3,31,32,33,-5,22,-21,-2147483648,18,1,2,3,1,
@@ -3241,7 +3241,7 @@
           32,33,22,22,-23,-2147483648,-3,30,-3,-2147483648,3,30,15,16,-4,30,4,50,51,52,53,-4,30,-5,31,2,32,33,
           -3,31,1,14,-5,31,-23,-2147483648,-3,21,6,41,42,43,44,24,25,-6,21,-45,-2147483648,-3,30,4,50,51,52,53,
           -8,30,-340,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tGrass","path":"tilesets/tGrass/tGrass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Room1",
