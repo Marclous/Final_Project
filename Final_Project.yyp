@@ -76,7 +76,6 @@
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},},
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},},
-    {"id":{"name":"oVenture","path":"objects/oVenture/oVenture.yy",},},
     {"id":{"name":"oVentureCorpse","path":"objects/oVentureCorpse/oVentureCorpse.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
