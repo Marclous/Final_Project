@@ -12,7 +12,10 @@
     "name":"Others",
     "path":"folders/Objects/Others.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolidWall",
+    "path":"objects/oSolidWall/oSolidWall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

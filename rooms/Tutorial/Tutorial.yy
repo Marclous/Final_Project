@@ -138,6 +138,7 @@
     {"name":"inst_AD00ADB","path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"inst_5B33B7E5","path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"inst_3E91D5F6","path":"rooms/Tutorial/Tutorial.yy",},
+    {"name":"inst_98FF2C6","path":"rooms/Tutorial/Tutorial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -146,6 +147,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_2EA52B05_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EA52B05_1","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1776.0,"y":64.0,},
         {"$GMRInstance":"","%Name":"inst_740B43B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_740B43B0","objectId":{"name":"oMaya","path":"objects/oMaya/oMaya.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":689.0,"y":458.0,},
+        {"$GMRInstance":"","%Name":"inst_98FF2C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_98FF2C6","objectId":{"name":"oTutorial","path":"objects/oTutorial/oTutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":875.0,"y":455.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Props","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Props","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":68,"SerialiseWidth":120,"TileCompressedData":[
           -17,-2147483648,-59,0,-7,-2147483648,-37,0,-16,-2147483648,-62,0,-5,-2147483648,-37,0,-16,-2147483648,
@@ -154,11 +156,12 @@
           -109,0,-10,-2147483648,-110,0,-10,-2147483648,-110,0,-9,-2147483648,-111,0,-9,-2147483648,-111,0,-9,
           -2147483648,-111,0,-9,-2147483648,-111,0,-9,-2147483648,-111,0,-9,-2147483648,-111,0,-9,-2147483648,
           -111,0,-9,-2147483648,-28,0,2,298,299,-81,0,1,-2147483648,-36,0,2,330,331,-81,0,1,-2147483648,-36,0,
-          2,362,363,-81,0,1,-2147483648,-119,0,1,-2147483648,-279,0,6,534,535,536,537,538,539,-114,0,6,566,567,
-          568,569,570,571,-114,0,6,598,599,600,601,602,603,-114,0,6,630,631,632,633,634,635,-114,0,6,662,663,664,
-          665,666,667,-114,0,6,694,695,696,697,698,699,-112,0,2,626,627,-118,0,4,658,659,626,627,-116,0,4,690,
-          691,658,659,-118,0,2,690,691,-1396,0,-2,-2147483648,-118,0,-2,-2147483648,-118,0,-2,-2147483648,-118,
-          0,-2,-2147483648,-116,0,-4,-2147483648,-116,0,-4,-2147483648,-116,0,-4,-2147483648,-114,0,-6,-2147483648,
+          2,362,363,-81,0,1,-2147483648,-119,0,1,-2147483648,-173,0,4,59,60,61,62,-102,0,6,534,535,536,537,538,
+          539,-8,0,4,91,92,93,94,-102,0,6,566,567,568,569,570,571,-8,0,4,123,124,125,126,-102,0,6,598,599,600,
+          601,602,603,-8,0,4,155,156,157,158,-102,0,6,630,631,632,633,634,635,-8,0,4,187,188,189,190,-102,0,6,
+          662,663,664,665,666,667,-114,0,6,694,695,696,697,698,699,-112,0,2,626,627,-118,0,4,658,659,626,627,-116,
+          0,4,690,691,658,659,-118,0,2,690,691,-1396,0,-2,-2147483648,-118,0,-2,-2147483648,-118,0,-2,-2147483648,
+          -118,0,-2,-2147483648,-116,0,-4,-2147483648,-116,0,-4,-2147483648,-116,0,-4,-2147483648,-114,0,-6,-2147483648,
           -114,0,-6,-2147483648,-114,0,-6,-2147483648,-112,0,-8,-2147483648,-112,0,-8,-2147483648,-110,0,-10,-2147483648,
           -109,0,-11,-2147483648,-108,0,-12,-2147483648,-108,0,-12,-2147483648,-108,0,-12,-2147483648,-108,0,-12,
           -2147483648,-108,0,-12,-2147483648,-108,0,-12,-2147483648,-108,0,-12,-2147483648,-72,0,-48,-2147483648,

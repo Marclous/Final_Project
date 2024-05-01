@@ -1,4 +1,5 @@
 #macro TEXT new TextAction
+#macro SPEAKER new SpeakerAction
 #macro CHOICE new ChoiceAction
 #macro OPTION new OptionAction
 #macro GOTO new GotoAction
@@ -13,6 +14,24 @@ function TextAction(_text, _result=0) : DialogueAction() constructor {
 	act = function(textbox) {
 		textbox.setText(text)
 		textbox.setRoom(result)
+	}
+}
+
+function SpeakerAction(_name, _sprite = undefined, _side = undefined): DialogueAction() constructor {
+	name = _name;
+	sprite = _sprite
+	side = _side
+	
+	act = function(textbox){
+		textbox.speaker_name = name
+		
+		if(!is_undefined(sprite)) 
+			textbox.portrait_sprite = sprite
+		
+		if(!is_undefined(side)) 
+			textbox.portrait_side = side
+			
+		textbox.next()
 	}
 }
 

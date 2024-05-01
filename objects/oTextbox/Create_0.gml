@@ -15,6 +15,17 @@ height = sprite_height
 x = (display_get_gui_width() - width) / 2
 y = display_get_gui_height() - height - margin
 
+
+//Portrait
+portrait_x = padding
+portrait_y = padding
+
+//Speaker
+speaker_x = padding
+speaker_y = 0
+speaker_font = fn_name
+speaker_color = #464633
+
 //Text
 text_font = fnt_Text
 text_color = c_white
@@ -43,6 +54,20 @@ options = []
 current_option = 0
 option_count = 0
 setEnd = 0
+
+portrait_sprite = -1
+portrait_width = sprite_get_width(sPortrait)
+portrait_height = sprite_get_height(sPortrait)
+portrait_side = PORTRAIT_SIDE.LEFT
+
+enum PORTRAIT_SIDE {
+	LEFT,
+	RIGHT
+}
+
+speaker_name = ""
+speaker_width = sprite_get_width(sName)
+speaker_height = sprite_get_height(sName)
 
 //Methods
 //Start a conversation

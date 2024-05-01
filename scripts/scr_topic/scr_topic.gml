@@ -1,5 +1,10 @@
 global.topics = {}
 
+global.topics[$ "Tutorial"] = [
+	SPEAKER("Wax God", sWaxGod, PORTRAIT_SIDE.LEFT),
+	TEXT("Hi")
+	]
+
 global.topics[$ "PresentPhoneNo"] = [
 	TEXT("Hello?"),
 	CHOICE("Ah, you’ve finally answered. Listen closely, I don't have much time before the connection fades. (shout out to mystery clone)",
