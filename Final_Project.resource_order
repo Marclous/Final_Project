@@ -1,14 +1,4 @@
 {
-
-
-
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
-
-
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
-
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
@@ -98,6 +88,7 @@
     {"name":"spr_paintBullet","order":4,"path":"sprites/spr_paintBullet/spr_paintBullet.yy",},
     {"name":"spr_shadow","order":5,"path":"sprites/spr_shadow/spr_shadow.yy",},
     {"name":"spr_weapon","order":6,"path":"sprites/spr_weapon/spr_weapon.yy",},
+    {"name":"sVentureDie","order":8,"path":"sprites/sVentureDie/sVentureDie.yy",},
     {"name":"sProps","order":26,"path":"sprites/sProps/sProps.yy",},
     {"name":"sRifleBullet","order":11,"path":"sprites/sRifleBullet/sRifleBullet.yy",},
     {"name":"sRifleBulletDecal","order":12,"path":"sprites/sRifleBulletDecal/sRifleBulletDecal.yy",},
@@ -111,10 +102,8 @@
     {"name":"sStoneGround","order":23,"path":"sprites/sStoneGround/sStoneGround.yy",},
     {"name":"sStruct","order":25,"path":"sprites/sStruct/sStruct.yy",},
     {"name":"sTextBox","order":43,"path":"sprites/sTextBox/sTextBox.yy",},
-    {"name":"sVentureDie","order":8,"path":"sprites/sVentureDie/sVentureDie.yy",},
     {"name":"sVentureDive","order":2,"path":"sprites/sVentureDive/sVentureDive.yy",},
     {"name":"sVentureIdle","order":7,"path":"sprites/sVentureIdle/sVentureIdle.yy",},
-    {"name":"sVentureRun","order":1,"path":"sprites/sVentureRun/sVentureRun.yy",},
     {"name":"sWall_1","order":16,"path":"sprites/sWall_1/sWall_1.yy",},
     {"name":"sWall","order":8,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWallTile","order":24,"path":"sprites/sWallTile/sWallTile.yy",},
@@ -128,5 +117,4 @@
     {"name":"tStruct","order":6,"path":"tilesets/tStruct/tStruct.yy",},
     {"name":"tWallTile","order":5,"path":"tilesets/tWallTile/tWallTile.yy",},
   ],
-
 }
