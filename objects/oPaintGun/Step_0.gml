@@ -1,7 +1,7 @@
-if(oPlayer1.water == 0||oPlayer1.water == -1)
+if(oVenture.water == 0||oVenture.water == -1)
 {
-	x = oPlayer1.x
-	y = oPlayer1.y
+	x = oVenture.x
+	y = oVenture.y
 	
 	direction = point_direction(x,y,mouse_x,mouse_y)
 	image_angle = direction

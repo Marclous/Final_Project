@@ -5,6 +5,9 @@ var _camH = camera_get_view_height(cam)
 if instance_exists(oMaya) {
 	x = oMaya.x - _camW/2
 	y = oMaya.centerY - _camH/2
+} else if instance_exists(oVenture) {
+	x = oVenture.x - _camW/2
+	y = oVenture.y - _camH/2
 }
 
 x = clamp(x,0,room_width-_camW)

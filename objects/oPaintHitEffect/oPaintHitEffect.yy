@@ -32,8 +32,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+
     "name":"sRifleHitEffect",
     "path":"sprites/sRifleHitEffect/sRifleHitEffect.yy",
+
+    "name":"sEffect",
+    "path":"sprites/sEffect/sEffect.yy",
   },
   "spriteMaskId":null,
   "visible":true,
