@@ -1,11 +1,14 @@
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
+
+
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[],
-=======
-=======
->>>>>>> Stashed changes
+
+
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
+
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
@@ -26,8 +29,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fn_name","order":1,"path":"fonts/fn_name/fn_name.yy",},
+    {"name":"fnt_Text","order":2,"path":"fonts/fnt_Text/fnt_Text.yy",},
+    {"name":"o","order":15,"path":"objects/o/o.yy",},
     {"name":"oAssaultRifleBullet","order":1,"path":"objects/oAssaultRifleBullet/oAssaultRifleBullet.yy",},
     {"name":"oAssaultRifleHitEffect","order":2,"path":"objects/oAssaultRifleHitEffect/oAssaultRifleHitEffect.yy",},
+    {"name":"oTutorial","order":13,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oDamageEnemy","order":1,"path":"objects/oDamageEnemy/oDamageEnemy.yy",},
     {"name":"oDamageParent","order":2,"path":"objects/oDamageParent/oDamageParent.yy",},
     {"name":"oDeathScreen","order":3,"path":"objects/oDeathScreen/oDeathScreen.yy",},
@@ -40,12 +47,12 @@
     {"name":"oHeroManager","order":10,"path":"objects/oHeroManager/oHeroManager.yy",},
     {"name":"oMaya","order":3,"path":"objects/oMaya/oMaya.yy",},
     {"name":"oPaintBullet","order":3,"path":"objects/oPaintBullet/oPaintBullet.yy",},
+    {"name":"oPaintBulletDecal","order":2,"path":"objects/oPaintBulletDecal/oPaintBulletDecal.yy",},
     {"name":"oPaintGun","order":1,"path":"objects/oPaintGun/oPaintGun.yy",},
     {"name":"oPaintHitEffect","order":5,"path":"objects/oPaintHitEffect/oPaintHitEffect.yy",},
     {"name":"oPlayerCorpse","order":4,"path":"objects/oPlayerCorpse/oPlayerCorpse.yy",},
     {"name":"oRifleBullet","order":5,"path":"objects/oRifleBullet/oRifleBullet.yy",},
     {"name":"oRifleBulletDecal","order":6,"path":"objects/oRifleBulletDecal/oRifleBulletDecal.yy",},
-    {"name":"oRifleBulletDecal30","order":2,"path":"objects/oRifleBulletDecal30/oRifleBulletDecal30.yy",},
     {"name":"oRifleHitEffect","order":7,"path":"objects/oRifleHitEffect/oRifleHitEffect.yy",},
     {"name":"oShotgunBullet","order":8,"path":"objects/oShotgunBullet/oShotgunBullet.yy",},
     {"name":"oShotgunBulletDecal","order":9,"path":"objects/oShotgunBulletDecal/oShotgunBulletDecal.yy",},
@@ -79,17 +86,18 @@
     {"name":"sEnemyIdle","order":1,"path":"sprites/sEnemyIdle/sEnemyIdle.yy",},
     {"name":"sEnemyWalk","order":19,"path":"sprites/sEnemyWalk/sEnemyWalk.yy",},
     {"name":"sGrass","order":22,"path":"sprites/sGrass/sGrass.yy",},
+    {"name":"sName","order":46,"path":"sprites/sName/sName.yy",},
     {"name":"sPlant","order":27,"path":"sprites/sPlant/sPlant.yy",},
     {"name":"sPlantShadow","order":29,"path":"sprites/sPlantShadow/sPlantShadow.yy",},
     {"name":"sPlayerCorpse","order":7,"path":"sprites/sPlayerCorpse/sPlayerCorpse.yy",},
     {"name":"sPlayerGotHit","order":8,"path":"sprites/sPlayerGotHit/sPlayerGotHit.yy",},
     {"name":"sPlayerIdle","order":9,"path":"sprites/sPlayerIdle/sPlayerIdle.yy",},
     {"name":"sPlayerWalk","order":10,"path":"sprites/sPlayerWalk/sPlayerWalk.yy",},
+    {"name":"sPortrait","order":44,"path":"sprites/sPortrait/sPortrait.yy",},
     {"name":"spr_paint","order":3,"path":"sprites/spr_paint/spr_paint.yy",},
     {"name":"spr_paintBullet","order":4,"path":"sprites/spr_paintBullet/spr_paintBullet.yy",},
     {"name":"spr_shadow","order":5,"path":"sprites/spr_shadow/spr_shadow.yy",},
     {"name":"spr_weapon","order":6,"path":"sprites/spr_weapon/spr_weapon.yy",},
-    {"name":"sVentureDie","order":8,"path":"sprites/sVentureDie/sVentureDie.yy",},
     {"name":"sProps","order":26,"path":"sprites/sProps/sProps.yy",},
     {"name":"sRifleBullet","order":11,"path":"sprites/sRifleBullet/sRifleBullet.yy",},
     {"name":"sRifleBulletDecal","order":12,"path":"sprites/sRifleBulletDecal/sRifleBulletDecal.yy",},
@@ -103,15 +111,14 @@
     {"name":"sStoneGround","order":23,"path":"sprites/sStoneGround/sStoneGround.yy",},
     {"name":"sStruct","order":25,"path":"sprites/sStruct/sStruct.yy",},
     {"name":"sTextBox","order":43,"path":"sprites/sTextBox/sTextBox.yy",},
+    {"name":"sVentureDie","order":8,"path":"sprites/sVentureDie/sVentureDie.yy",},
     {"name":"sVentureDive","order":2,"path":"sprites/sVentureDive/sVentureDive.yy",},
-<<<<<<< Updated upstream
     {"name":"sVentureIdle","order":7,"path":"sprites/sVentureIdle/sVentureIdle.yy",},
     {"name":"sVentureRun","order":1,"path":"sprites/sVentureRun/sVentureRun.yy",},
-=======
->>>>>>> Stashed changes
     {"name":"sWall_1","order":16,"path":"sprites/sWall_1/sWall_1.yy",},
     {"name":"sWall","order":8,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWallTile","order":24,"path":"sprites/sWallTile/sWallTile.yy",},
+    {"name":"sWaxGod","order":45,"path":"sprites/sWaxGod/sWaxGod.yy",},
     {"name":"tGrass","order":2,"path":"tilesets/tGrass/tGrass.yy",},
     {"name":"TileSet8","order":9,"path":"tilesets/TileSet8/TileSet8.yy",},
     {"name":"tPlant","order":4,"path":"tilesets/tPlant/tPlant.yy",},
@@ -121,8 +128,5 @@
     {"name":"tStruct","order":6,"path":"tilesets/tStruct/tStruct.yy",},
     {"name":"tWallTile","order":5,"path":"tilesets/tWallTile/tWallTile.yy",},
   ],
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 }
