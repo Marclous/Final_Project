@@ -2,7 +2,7 @@ global.topics = {}
 
 global.topics[$ "Tutorial"] = [
 	SPEAKER("Wax God", sWaxGod, PORTRAIT_SIDE.LEFT),
-	TEXT("Hi")
+	TEXT("s")
 	]
 
 global.topics[$ "PresentPhoneNo"] = [

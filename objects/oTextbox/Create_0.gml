@@ -35,7 +35,7 @@ text_y = padding
 text_width = width - padding * 2
 
 option_x = padding
-option_y = padding
+option_y = padding * 3
 option_spacing = 60
 option_selection_indent =24
 option_width = 300

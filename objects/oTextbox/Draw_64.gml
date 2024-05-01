@@ -26,7 +26,7 @@ if sprite_exists(portrait_sprite) {
 	
 	//animate portrait
 	var subimg = 0
-	if !finished subimg = (text_progress / text_speed) * (sprite_get_speed(portrait_sprite) / game_get_speed(gamespeed_fps))
+	if (!finished) subimg = (text_progress / text_speed) * (sprite_get_speed(portrait_sprite) / game_get_speed(gamespeed_fps))
 	
 	draw_sprite_ext(portrait_sprite, subimg, 
 		draw_portrait_x + portrait_width / 2, draw_portrait_y + portrait_height / 2,
