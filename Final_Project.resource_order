@@ -60,7 +60,7 @@
     {"name":"oTutorial","order":13,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oVentureCorpse","order":6,"path":"objects/oVentureCorpse/oVentureCorpse.yy",},
     {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
-    {"name":"Tutorial","order":1,"path":"rooms/Tutorial/Tutorial.yy",},
+    {"name":"rm_plot","order":1,"path":"rooms/rm_plot/rm_plot.yy",},
     {"name":"scr_actions","order":2,"path":"scripts/scr_actions/scr_actions.yy",},
     {"name":"scr_topic","order":3,"path":"scripts/scr_topic/scr_topic.yy",},
     {"name":"scr_typing","order":4,"path":"scripts/scr_typing/scr_typing.yy",},

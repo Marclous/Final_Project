@@ -88,7 +88,7 @@
     {"id":{"name":"oVentureCorpse","path":"objects/oVentureCorpse/oVentureCorpse.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
+    {"id":{"name":"rm_plot","path":"rooms/rm_plot/rm_plot.yy",},},
     {"id":{"name":"functions","path":"scripts/functions/functions.yy",},},
     {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},},
     {"id":{"name":"scr_topic","path":"scripts/scr_topic/scr_topic.yy",},},
@@ -206,7 +206,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
+    {"roomId":{"name":"rm_plot","path":"rooms/rm_plot/rm_plot.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
