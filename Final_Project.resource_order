@@ -1,4 +1,10 @@
 {
+
+
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
+
+
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
@@ -118,4 +124,5 @@
     {"name":"tStruct","order":6,"path":"tilesets/tStruct/tStruct.yy",},
     {"name":"tWallTile","order":5,"path":"tilesets/tWallTile/tWallTile.yy",},
   ],
+
 }

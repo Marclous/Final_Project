@@ -34,8 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+  objects/oVenture/oVenture.yy
     "name":"sVentureIdle",
     "path":"sprites/sVentureIdle/sVentureIdle.yy",
+    "name":"sVentureIdle",
+    "path":"sprites/sVentureIdle/sVentureIdle.yy",
+:objects/oPlayer1/oPlayer1.yy
   },
   "spriteMaskId":null,
   "visible":true,

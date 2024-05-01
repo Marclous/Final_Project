@@ -25,11 +25,7 @@
     {"$GMImageLayer":"","%Name":"e80b7c38-ebfc-42e7-8c54-c9162cb92f0b","blendMode":0,"displayName":"default","isLocked":false,"name":"e80b7c38-ebfc-42e7-8c54-c9162cb92f0b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sVentureRun",
-  "nineSlice":null,
   "origin":9,
-  "parent":{
-    "name":"Venture",
-    "path":"folders/Sprites/Venture.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

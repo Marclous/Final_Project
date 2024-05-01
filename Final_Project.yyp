@@ -119,6 +119,7 @@
     {"id":{"name":"spr_paintBullet","path":"sprites/spr_paintBullet/spr_paintBullet.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},
     {"id":{"name":"spr_weapon","path":"sprites/spr_weapon/spr_weapon.yy",},},
+    {"id":{"name":"sVentureDie","path":"sprites/sVentureDie/sVentureDie.yy",},},
     {"id":{"name":"sProps","path":"sprites/sProps/sProps.yy",},},
     {"id":{"name":"sRifleBullet","path":"sprites/sRifleBullet/sRifleBullet.yy",},},
     {"id":{"name":"sRifleBulletDecal","path":"sprites/sRifleBulletDecal/sRifleBulletDecal.yy",},},
