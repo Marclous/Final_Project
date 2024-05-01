@@ -8,8 +8,8 @@
   "name":"oWaxGod",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Tutorial.yy",
   },
   "parentObjectId":null,
   "persistent":false,

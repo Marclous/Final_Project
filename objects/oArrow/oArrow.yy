@@ -6,8 +6,8 @@
   "name":"oArrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Tutorial.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sArrow",
+    "path":"sprites/sArrow/sArrow.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
