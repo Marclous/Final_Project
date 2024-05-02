@@ -20,10 +20,10 @@ name = "Maya"
 
 //player_gun = instance_create_depth(x,y,depth,oGun)
 
-if !(audio_play_sound(sdMusic,1,true)){
+/*if !(audio_play_sound(sdMusic,1,true)){
 	audio_play_sound(sdMusic,1,true)
 }
-
+*/
 
 weaponOffsetDist = 4
 shootTimer = 0
@@ -46,8 +46,8 @@ shootTimer = 0
 	}
 }*/
 
-array_push(global.Playerweapons, global.Weapons.blueRifle)
-array_push(global.Playerweapons, global.Weapons.blueShotgun)
-array_push(global.Playerweapons, global.Weapons.AssaultRifle)
+//array_push(global.Playerweapons, global.Weapons.blueRifle)
+//array_push(global.Playerweapons, global.Weapons.blueShotgun)
+//array_push(global.Playerweapons, global.Weapons.AssaultRifle)
 selectedweapon = 0
-weapon = global.Playerweapons[selectedweapon]
+if array_length(global.Playerweapons)>0 weapon = global.Playerweapons[selectedweapon]

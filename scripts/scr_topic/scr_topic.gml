@@ -1,7 +1,7 @@
 global.topics = {}
 
 global.topics[$ "Tutorial"] = [
-	SPEAKER("Wax God", sWaxGod, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("WTF is this place?!")
 	]
 
