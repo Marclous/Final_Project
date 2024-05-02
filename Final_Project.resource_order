@@ -1,22 +1,4 @@
 {
-
-
-
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"oPaint","order":4,"path":"objects/oPaint/oPaint.yy",},
-    {"name":"oPaintBullet","order":3,"path":"objects/oPaintBullet/oPaintBullet.yy",},
-    {"name":"oPlayer1","order":2,"path":"objects/oPlayer1/oPlayer1.yy",},
-    {"name":"oRifleBulletDecal30","order":1,"path":"objects/oRifleBulletDecal30/oRifleBulletDecal30.yy",},
-    {"name":"oPaintHitEffect","order":5,"path":"objects/oPaintHitEffect/oPaintHitEffect.yy",},
-  ],
-
-  "ResourceOrderSettings":[],
-
-
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
-
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
@@ -32,6 +14,7 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Blender","order":41,"path":"folders/Sprites/Blender.yy",},
+    {"name":"UI","order":47,"path":"folders/Sprites/UI.yy",},
     {"name":"Maya","order":42,"path":"folders/Sprites/Maya.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
@@ -42,7 +25,6 @@
     {"name":"o","order":15,"path":"objects/o/o.yy",},
     {"name":"oAssaultRifleBullet","order":1,"path":"objects/oAssaultRifleBullet/oAssaultRifleBullet.yy",},
     {"name":"oAssaultRifleHitEffect","order":2,"path":"objects/oAssaultRifleHitEffect/oAssaultRifleHitEffect.yy",},
-    {"name":"oTutorial","order":13,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oDamageEnemy","order":1,"path":"objects/oDamageEnemy/oDamageEnemy.yy",},
     {"name":"oDamageParent","order":2,"path":"objects/oDamageParent/oDamageParent.yy",},
     {"name":"oDeathScreen","order":3,"path":"objects/oDeathScreen/oDeathScreen.yy",},
@@ -68,6 +50,7 @@
     {"name":"oSolidWall","order":11,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oSpawner","order":12,"path":"objects/oSpawner/oSpawner.yy",},
     {"name":"oTextbox","order":13,"path":"objects/oTextbox/oTextbox.yy",},
+    {"name":"oTutorial","order":13,"path":"objects/oTutorial/oTutorial.yy",},
     {"name":"oVentureCorpse","order":6,"path":"objects/oVentureCorpse/oVentureCorpse.yy",},
     {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
     {"name":"Tutorial","order":1,"path":"rooms/Tutorial/Tutorial.yy",},
@@ -122,7 +105,6 @@
     {"name":"sVentureDie","order":8,"path":"sprites/sVentureDie/sVentureDie.yy",},
     {"name":"sVentureDive","order":2,"path":"sprites/sVentureDive/sVentureDive.yy",},
     {"name":"sVentureIdle","order":7,"path":"sprites/sVentureIdle/sVentureIdle.yy",},
-    {"name":"sVentureRun","order":1,"path":"sprites/sVentureRun/sVentureRun.yy",},
     {"name":"sWall_1","order":16,"path":"sprites/sWall_1/sWall_1.yy",},
     {"name":"sWall","order":8,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWallTile","order":24,"path":"sprites/sWallTile/sWallTile.yy",},
