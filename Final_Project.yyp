@@ -225,10 +225,10 @@
     {"roomId":{"name":"rm_tutorial2","path":"rooms/rm_tutorial2/rm_tutorial2.yy",},},
     {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
     {"roomId":{"name":"rm_tutorial3","path":"rooms/rm_tutorial3/rm_tutorial3.yy",},},
+    {"roomId":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
     {"roomId":{"name":"rm_tutorial4","path":"rooms/rm_tutorial4/rm_tutorial4.yy",},},
     {"roomId":{"name":"rm_level4","path":"rooms/rm_level4/rm_level4.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
