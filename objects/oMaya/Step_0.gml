@@ -98,7 +98,7 @@ if shootkey && shootTimer <= 0{
 #region
 image_speed = 1
 if xvelocity !=0 image_xscale = sign(xvelocity)
-if xvelocity != 0 && gothit = false {
+if (xvelocity != 0 && gothit == false) || (yvelocity !=0 && gothit == false ){
 		sprite_index = sPlayerWalk
 		/*if !audio_is_playing(sdStep) {
 			audio_play_sound(sdStep,1,false)
@@ -112,7 +112,7 @@ if xvelocity != 0 && gothit = false {
 //Collison
 if place_meeting(x,y,oEnemyBullet) {
 	gothit = true
-	hit_point-=1
+	global.mayahp-=1
 	show_debug_message(hit_point)
 	sprite_index = sPlayerGotHit
 	screenshake(4,20)
@@ -149,8 +149,7 @@ if (knockback_speed > 0) {
 if !audio_group_is_loaded(audiogroup_default) {
 	audio_group_load(audiogroup_default)
 }
-
-if hit_point < 1 {
+if global.mayahp < 1 {
 	instance_create_layer(x,y,"Instances",oPlayerCorpse)
 	instance_create_layer(x,y,"Instances",oDeathScreen)
 	instance_destroy()
@@ -168,4 +167,17 @@ if global.currentHero != id && visible == true{
 	instance_activate_object(id)
 	visible = true
 }
-	
+//Interaction
+var interactionRadius = 16;
+if keyboard_check_pressed(ord("E")) {
+    // Loop through a grid around the player
+    var found = false;
+    for (var dx = -interactionRadius; dx <= interactionRadius; dx += 16) { // Adjust the step as needed
+        for (var dy = -interactionRadius; dy <= interactionRadius; dy += 16) { // Adjust the step as needed
+			if (place_meeting(x + dx, y + dy, o)) {
+				startDialogue("Tutorial")
+			}
+		}
+		if (found) break;
+	}
+}
