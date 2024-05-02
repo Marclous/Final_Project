@@ -50,15 +50,13 @@ function ChoiceAction(_text) : DialogueAction() constructor {
 	
 }
 
-function OptionAction(_text, _choice = 0,_time = 0,_topic = noone,_result=0): DialogueAction() constructor {
+function OptionAction(_text, _topic = noone, _choice = 0,_result=0): DialogueAction() constructor {
 	text = _text
 	topic = _topic
 	result = _result
-	time = _time
 	choice = _choice
 	act = function(textbox) {
 		textbox.setRoom(result)
-		textbox.setTime(time)
 		textbox.getChoice(choice)
 		textbox.setTopic(topic)
 		
