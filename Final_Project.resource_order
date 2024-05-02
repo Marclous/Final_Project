@@ -89,6 +89,7 @@
     {"name":"spr_paintBullet","order":4,"path":"sprites/spr_paintBullet/spr_paintBullet.yy",},
     {"name":"spr_shadow","order":5,"path":"sprites/spr_shadow/spr_shadow.yy",},
     {"name":"spr_weapon","order":6,"path":"sprites/spr_weapon/spr_weapon.yy",},
+    {"name":"sCDventure","order":1,"path":"sprites/sCDventure/sCDventure.yy",},
     {"name":"sProps","order":26,"path":"sprites/sProps/sProps.yy",},
     {"name":"sRifleBullet","order":11,"path":"sprites/sRifleBullet/sRifleBullet.yy",},
     {"name":"sRifleBulletDecal","order":12,"path":"sprites/sRifleBulletDecal/sRifleBulletDecal.yy",},
