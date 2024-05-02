@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sStairR",
-    "path":"sprites/sStairR/sStairR.yy",
+    "name":"sStairRY",
+    "path":"sprites/sStairRY/sStairRY.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

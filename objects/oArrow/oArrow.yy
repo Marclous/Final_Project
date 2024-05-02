@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oTutorial",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oArrow",
+  "eventList":[],
   "managed":true,
-  "name":"oTutorial",
+  "name":"oArrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Tutorial.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sArrow",
+    "path":"sprites/sArrow/sArrow.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
