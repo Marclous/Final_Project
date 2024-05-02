@@ -41,7 +41,7 @@ option_selection_indent =24
 option_width = 300
 option_height = 40
 option_text_x = 20
-option_text_color = c_white
+option_text_color = c_black
 
 actions = []
 current_action = -1
@@ -106,11 +106,6 @@ setRoom = function(roomNum) {
 	}else return
 }
 
-setTime = function(time) {
-	if time == 1 {
-		oClock.settime = true
-	}else oClock.settime = false
-}
 
 getChoice = function(choice) {
 	if choice = 1 {

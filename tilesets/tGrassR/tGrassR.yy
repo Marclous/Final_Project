@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sGrassRY",
-    "path":"sprites/sGrassRY/sGrassRY.yy",
+    "name":"sGrassR",
+    "path":"sprites/sGrassR/sGrassR.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

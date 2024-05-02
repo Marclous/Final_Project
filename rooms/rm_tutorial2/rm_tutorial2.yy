@@ -58,7 +58,7 @@
           484,485,486,293,482,483,484,485,486,487,488,489,680,681,682,683,295,-3,-2147483648,12,946,947,948,949,
           950,951,952,953,954,955,956,957,-29,-2147483648,9,514,515,516,517,518,325,326,327,328,-13,-2147483648,
           12,978,979,980,981,982,983,984,985,986,987,988,989,-51,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tWallAll","path":"tilesets/tWallAll/tWallAll.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tWallR","path":"tilesets/tWallR/tWallR.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Text","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_4D7D36D3_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4D7D36D3_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8,"scaleY":0.8,"spriteId":{"name":"sTutorialText","path":"sprites/sTutorialText/sTutorialText.yy",},"x":96.0,"y":32.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_39228C3_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_39228C3_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8,"scaleY":0.8,"spriteId":{"name":"sTutorialText","path":"sprites/sTutorialText/sTutorialText.yy",},"x":288.0,"y":32.0,},
@@ -91,7 +91,7 @@
           81,80,81,82,83,84,85,86,97,98,99,100,101,102,-33,-2147483648,8,96,97,98,99,100,101,102,103,-7,-2147483648,
           10,96,97,96,97,98,99,100,101,102,103,-38,-2147483648,8,112,113,114,115,116,117,118,119,-7,-2147483648,
           10,112,113,112,113,114,115,116,117,118,119,-140,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tGrassAll","path":"tilesets/tGrassAll/tGrassAll.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tGrassR","path":"tilesets/tGrassR/tGrassR.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_tutorial2",

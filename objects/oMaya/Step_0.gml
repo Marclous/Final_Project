@@ -11,12 +11,14 @@ restartKey = keyboard_check(ord("R"))
 //Input
 inputDirection = point_direction(0,0, keyRight - keyLeft, keyDown - keyUp)
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0)
+
 var lastInputDirection = 0
 
 //Movement
+if room!=rm_plot{
 xvelocity = lengthdir_x(inputMagnitude * walkSpeed, inputDirection)
 yvelocity = lengthdir_y(inputMagnitude * walkSpeed, inputDirection)
-
+}
 if place_meeting(x + xvelocity, y, oSolidWall) {
 	xvelocity = 0
 }
@@ -58,7 +60,7 @@ if swapKeyPressed {
 if shootTimer > 0 {
 	shootTimer--
 }
-if shootkey && shootTimer <= 0{
+if shootkey && shootTimer <= 0 && room!=rm_plot{
 	
 	shootTimer = weapon.cooldown
 	screenshake(weapon.shakemag,20)
@@ -174,7 +176,7 @@ if keyboard_check_pressed(ord("E")) {
     var found = false;
     for (var dx = -interactionRadius; dx <= interactionRadius; dx += 16) { // Adjust the step as needed
         for (var dy = -interactionRadius; dy <= interactionRadius; dy += 16) { // Adjust the step as needed
-			if (place_meeting(x + dx, y + dy, o)) {
+			if (place_meeting(x + dx, y + dy, oWaxGod)) {
 				startDialogue("Tutorial")
 			}
 		}
