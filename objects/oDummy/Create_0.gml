@@ -11,7 +11,7 @@ far = 300
 fadeSpd = 1/15
 emergeSpd = 0.25
 
-hit_point = 15
+hit_point = 5;
 knockback_speed = 0;
 knockback_direction = 0;
 
