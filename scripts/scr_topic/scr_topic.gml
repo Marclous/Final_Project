@@ -2,9 +2,9 @@ global.topics = {}
 
 global.topics[$ "Tutorial"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
-	TEXT("WTF is this place?!"),
+	TEXT("WTF is this place?! (Press SPACE to continue...)"),
 	SPEAKER("???", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
-	TEXT("Welcome to the world of the wax."),
+	TEXT("Welcome to the world of the wax.",1),
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	CHOICE("World of the Wax?",
 		OPTION("Who are you?", "Chose Who"),
@@ -71,7 +71,7 @@ global.topics[$ "Chose Who1"] = [
 	TEXT("** What the fuck?! **"),
 	TEXT("Let me out!!"),
 	TEXT("* No Responses *"),
-	TEXT("Fine! Guess I'll just have to do what he just said.")
+	TEXT("Fine! Guess I'll just have to do what he just said.",1)
 	]
 
 global.topics[$ "Chose Where1"] = [
@@ -109,9 +109,9 @@ global.topics[$ "Chose Where1"] = [
 	TEXT("** What the fuck?! **"),
 	TEXT("Let me out!!"),
 	TEXT("* No Responses *"),
-	TEXT("Fine! Guess I'll just have to do what he just said.")
+	TEXT("Fine! Guess I'll just have to do what he just said.",1)
 	
 	]
 
-
+	
 	

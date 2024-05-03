@@ -1,2 +1,2 @@
-global.venturehp = 15
-global.mayahp = 15
+global.venturehp = 10
+global.mayahp = 10
