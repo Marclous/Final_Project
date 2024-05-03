@@ -11,15 +11,13 @@ far = 300
 fadeSpd = 1/15
 emergeSpd = 0.25
 
-
-hit_point = 4;
+hit_point = 15
 knockback_speed = 0;
 knockback_direction = 0;
 
 
 function takeDamage() {
-
-	if hit_point>0 {
+	if hit_point>1 {
 		
 		show_debug_message(hit_point)
 		var bullet = instance_place(x, y, oDamageEnemy);
@@ -33,6 +31,7 @@ function takeDamage() {
 		}*/
 	}
 	else {
+		var bullet = instance_place(x, y, oRifleBullet);
 	
 		instance_destroy()
 
