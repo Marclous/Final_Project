@@ -4,7 +4,7 @@ global.topics[$ "Tutorial"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("WTF is this place?! (Press SPACE to continue...)"),
 	SPEAKER("???", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
-	TEXT("Welcome to the world of the wax.",1),
+	TEXT("Welcome to the world of the wax."),
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	CHOICE("World of the Wax?",
 		OPTION("Who are you?", "Chose Who"),
