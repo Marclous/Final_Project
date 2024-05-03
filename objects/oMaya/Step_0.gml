@@ -3,8 +3,8 @@ keyRight = keyboard_check(ord("D"))
 keyUp = keyboard_check(ord("W"))
 keyDown = keyboard_check(ord("S"))
 shootkey = mouse_check_button(mb_left)
-swapKeyPressed = keyboard_check_pressed(ord("Q"))
-restartKey = keyboard_check(ord("R"))
+
+
 
 //Player Movement
 #region
@@ -31,15 +31,6 @@ y += yvelocity
 
 #endregion
 
-if restartKey {
-	room_restart()
-	x = 768
-	y = 111
-	hit_point = 15
-	
-	instance_deactivate_object(oCamera)
-	instance_activate_all()
-}
 
 if (inputMagnitude) {
     lastInputDirection = inputDirection;
@@ -51,7 +42,8 @@ aimDir = point_direction(x, centerY, mouse_x, mouse_y)
 
 var _playerweapons = global.Playerweapons
 
-if swapKeyPressed {
+if  keyboard_check_pressed(ord("Q")) {
+	show_debug_message(array_length(_playerweapons))
 	selectedweapon++
 	if selectedweapon >= array_length(_playerweapons) { selectedweapon = 0}
 	weapon = _playerweapons[selectedweapon]
@@ -115,7 +107,7 @@ if (xvelocity != 0 && gothit == false) || (yvelocity !=0 && gothit == false ){
 if place_meeting(x,y,oEnemyBullet) {
 	gothit = true
 	global.mayahp-=1
-	show_debug_message(hit_point)
+	show_debug_message(global.mayahp)
 	sprite_index = sPlayerGotHit
 	screenshake(4,20)
 	var bullet = instance_place(x, y, oEnemyBullet);
@@ -170,7 +162,7 @@ if global.currentHero != id && visible == true{
 	visible = true
 }
 //Interaction
-var interactionRadius = 16;
+/*var interactionRadius = 16;
 if keyboard_check_pressed(ord("E")) {
     // Loop through a grid around the player
     var found = false;

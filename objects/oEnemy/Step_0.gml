@@ -40,6 +40,53 @@ switch state {
 	break;
 }
 
+if(allow_shoot == true) && instance_exists(oMaya){
+	_angle = point_direction(x,y,oMaya.x,oMaya.y)
+	direction = _angle
+	var effect_x = x + lengthdir_x(30, _angle);
+	var effect_y = y + lengthdir_y(30, _angle);
+	var _enemy_bullet = instance_create_layer(effect_x, effect_y, "Instances", oEnemyBullet);
+	var effect_instance = instance_create_layer(effect_x, effect_y, "Effects", oExplode);
+	var decal = instance_create_depth(x, y, depth, oEnemyBulletDecal)
+	with decal {
+		direction = random(360)
+		knockback_speed = 10
+	}
+	effect_instance.direction = _angle;
+	effect_instance.image_angle = _angle;
+	audio_play_sound(sdEnemyShoot,1,false)
+	with(_enemy_bullet){
+		speed = 1;
+		direction = point_direction(x,y,oMaya.x,oMaya.y); 
+		image_angle = direction
+		}
+	allow_shoot = false;
+	alarm[2]= 60;
+	
+} else if (allow_shoot == true) && instance_exists(oVenture){
+	_angle = point_direction(x,y,oVenture.x,oVenture.y)
+	direction = _angle
+	var effect_x = x + lengthdir_x(30, _angle);
+	var effect_y = y + lengthdir_y(30, _angle);
+	var _enemy_bullet = instance_create_layer(effect_x, effect_y, "Instances", oEnemyBullet);
+	var effect_instance = instance_create_layer(effect_x, effect_y, "Effects", oExplode);
+	var decal = instance_create_depth(x, y, depth, oEnemyBulletDecal)
+	with decal {
+		direction = random(360)
+		knockback_speed = 10
+	}
+	effect_instance.direction = _angle;
+	effect_instance.image_angle = _angle;
+	audio_play_sound(sdEnemyShoot,1,false)
+	with(_enemy_bullet){
+		speed = 1;
+		direction = point_direction(x,y,oVenture.x,oVenture.y); 
+		image_angle = direction
+		}
+	allow_shoot = false;
+	alarm[2]= 60;
+}
+
 if (place_meeting(x,y,oRifleBullet) ||place_meeting(x,y,oPaintBullet)) {
 	var _effect = instance_create_layer(x, y, "Effects", oExplode);
 	takeDamage()
@@ -78,7 +125,7 @@ if (knockback_speed > 0) {
 
 if place_meeting(x,y,oRifleBullet) {
 	gothit = true
-	sprite_index = sPlayerGotHit
+	sprite_index = sEnemyGothit
 	alarm[1] = 20	
 }
 

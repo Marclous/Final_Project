@@ -38,15 +38,6 @@ y += yvelocity
 
 #endregion
 
-if restartKey {
-	room_restart()
-	x = 768
-	y = 111
-	hit_point = 15
-	
-	instance_deactivate_object(oCamera)
-	instance_activate_all()
-}
 
 if (inputMagnitude) {
     lastInputDirection = inputDirection;
@@ -83,7 +74,7 @@ if(water == 2)
 if place_meeting(x,y,oEnemyBullet) {
 	gothit = true
 	global.venturehp-=1
-	show_debug_message(hit_point)
+	show_debug_message(global.venturehp)
 	//sprite_index =
 	//受击动画
 	
@@ -96,7 +87,7 @@ if place_meeting(x,y,oEnemyBullet) {
 
 		}
 	instance_destroy(bullet)
-	alarm[0] = 20	
+
 }
 if (knockback_speed > 0) {
     // Apply movement in the knockback direction

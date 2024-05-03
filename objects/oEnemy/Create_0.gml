@@ -14,9 +14,8 @@ emergeSpd = 0.25
 hit_point = 15
 knockback_speed = 0;
 knockback_direction = 0;
+allow_shoot = true
 
-gun = instance_create_layer(x,y,"Instances",oEnemyGun)
-gun.owner = id
 function takeDamage() {
 	if hit_point>1 {
 		
@@ -40,9 +39,7 @@ function takeDamage() {
 		    var hit_by_bullet_id = bullet.bullet_id; 
 
 		}
-		instance_create_layer(x,y,"Instances",oEnemyCorpse)
 		instance_destroy()
-		instance_destroy(gun)
 	}
 }
 alarm[0] = room_speed * 3;

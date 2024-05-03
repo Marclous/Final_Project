@@ -1,17 +1,21 @@
-timer++
+var detection_radius = 50;  // You can change this to whatever value you need
 
-if timer > spawntime {
+// Check if obj_enemy is within the radius
+if (distance_to_object(oMaya) <= detection_radius) || (distance_to_object(oVenture) <= detection_radius){	
+	timer++
+
+	if timer > spawntime {
 	
-	var _inst = instance_create_depth(x,y,depth-1, oEnemy)
-	with _inst {
-		image_alpha = 0
-		state = EnemyState.Spawn
+		var _inst = instance_create_depth(x,y,depth-1, oEnemy)
+		with _inst {
+			image_alpha = 0
+			state = EnemyState.Spawn
+		}
+	
+		timer = 0
 	}
-	
-	timer = 0
+
 }
-
-
 if dead == true && image_alpha>0 {
 	image_alpha-=0.1
 }

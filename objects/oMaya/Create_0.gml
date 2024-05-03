@@ -46,8 +46,14 @@ shootTimer = 0
 	}
 }*/
 
-//array_push(global.Playerweapons, global.Weapons.blueRifle)
+
 //array_push(global.Playerweapons, global.Weapons.blueShotgun)
 //array_push(global.Playerweapons, global.Weapons.AssaultRifle)
+if room == rm_tutorial3 array_push(global.Playerweapons, global.Weapons.blueShotgun)
+if room == rm_tutorial4 array_push(global.Playerweapons, global.Weapons.AssaultRifle)
+if room == rm_tutorial1 array_push(global.Playerweapons, global.Weapons.blueRifle)
 selectedweapon = 0
-if array_length(global.Playerweapons)>0 weapon = global.Playerweapons[selectedweapon]
+if array_length(global.Playerweapons)>0 {
+	
+	weapon = global.Playerweapons[selectedweapon]
+}
