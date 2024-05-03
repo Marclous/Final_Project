@@ -4,7 +4,7 @@ if place_meeting(x,y,oSolidWall) {
 	instance_destroy()
 }
 
-if place_meeting(x,y, oEnemy) {
+if place_meeting(x,y, oEnemy) || place_meeting(x,y,oDummy) {
 	audio_play_sound(sdBulletHitWall,1,false)
 	var effect_instance = instance_create_layer(x, y, "Effects", oRifleHitEffect);
 	alarm[0] = 1

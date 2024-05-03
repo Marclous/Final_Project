@@ -11,12 +11,14 @@ far = 300
 fadeSpd = 1/15
 emergeSpd = 0.25
 
+
 hit_point = 4;
 knockback_speed = 0;
 knockback_direction = 0;
 
 
 function takeDamage() {
+
 	if hit_point>0 {
 		
 		show_debug_message(hit_point)
