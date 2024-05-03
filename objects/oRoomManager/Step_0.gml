@@ -1,4 +1,5 @@
 restartKey = keyboard_check(ord("R"))
+
 if restartKey {
 	room_restart()
 	global.mayahp = 10

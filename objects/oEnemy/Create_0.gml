@@ -39,7 +39,6 @@ function takeDamage() {
 		    var hit_by_bullet_id = bullet.bullet_id; 
 
 		}
-		instance_create_layer(x,y,"Instances",oEnemyCorpse)
 		instance_destroy()
 	}
 }

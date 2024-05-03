@@ -33,7 +33,6 @@ function takeDamage() {
 	else {
 		var bullet = instance_place(x, y, oRifleBullet);
 	
-		instance_create_layer(x,y,"Instances",oEnemyCorpse)
 		instance_destroy()
 
 	}

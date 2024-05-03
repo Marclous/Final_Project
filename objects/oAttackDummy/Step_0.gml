@@ -188,7 +188,7 @@ if (knockback_speed > 0) {
 
 if place_meeting(x,y,oRifleBullet) {
 	gothit = true
-	sprite_index = sPlayerGotHit
+	sprite_index = sEnemyGothit
 	alarm[1] = 20	
 }
 
