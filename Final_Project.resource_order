@@ -1,11 +1,14 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"UI","order":4,"path":"folders/Sprites/UI.yy",},
+  ],
   "ResourceOrderSettings":[
+    {"name":"oRoomManager","order":1,"path":"rooms/oRoomManager/oRoomManager.yy",},
     {"name":"rm_level1","order":3,"path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"rm_level3","order":4,"path":"rooms/rm_level3/rm_level3.yy",},
     {"name":"rm_tutorial3","order":1,"path":"rooms/rm_tutorial3/rm_tutorial3.yy",},
     {"name":"rm_tutorial4","order":2,"path":"rooms/rm_tutorial4/rm_tutorial4.yy",},
-    {"name":"oRoomManager","order":1,"path":"rooms/oRoomManager/oRoomManager.yy",},
+    {"name":"sHP","order":1,"path":"sprites/sHP/sHP.yy",},
     {"name":"sMayaTalk","order":1,"path":"sprites/sMayaTalk/sMayaTalk.yy",},
     {"name":"sOptionArrow","order":1,"path":"sprites/sOptionArrow/sOptionArrow.yy",},
     {"name":"sOptionBox","order":2,"path":"sprites/sOptionBox/sOptionBox.yy",},
