@@ -21,4 +21,5 @@ stopMotion = true
 CD = 0
 CD_Space = false
 
+
 instance_create_layer(x,y,"Instances",oPaintGun)

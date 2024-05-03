@@ -71,7 +71,7 @@ if(water == 2)
 
 
 //collision
-if place_meeting(x,y,oEnemyBullet) {
+if (place_meeting(x,y,oEnemyBullet)&&water==0) {
 	gothit = true
 	global.venturehp-=1
 	show_debug_message(global.venturehp)
@@ -147,6 +147,7 @@ if(water == 2)
 {
 	stopMotion = false
 	sprite_index = spr_shadow
+
 	//swimming animation: TBD
 	
 	if(!keyboard_check(vk_space))
@@ -158,10 +159,30 @@ if(water == 2)
 	{
 		if(keyboard_check(vk_space))
 		{
+			
 			CD_Space = false
 			water = -1
 			sprite_index = sVentureDive
+			
+			explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+			explode.visible = 0
+			explode.direction =0
+			
+			explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+			explode.visible = 0
+			explode.direction =270
+			
+			explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+			explode.visible = 0
+			explode.direction =180
+			
+			explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+			explode.visible = 0
+			explode.direction =90
+			
 			alarm_set(1,15)
+			
+			instance_destroy(oCD)
 			
 			//instance_create_layer()  加爆炸效果
 		
@@ -176,6 +197,24 @@ if(water == 2)
 		water = -1
 		sprite_index = sVentureDive
 		alarm_set(1,15)
+		
+		explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+		explode.visible = 0
+		explode.direction =0
+			
+		explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+		explode.visible = 0
+		explode.direction =270
+			
+		explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+		explode.visible = 0
+		explode.direction =180
+			
+		explode = instance_create_layer(x,y,"Instances",oPaintBullet)
+		explode.visible = 0
+		explode.direction =90
+		
+		
 	}	
 	
 }
@@ -188,10 +227,10 @@ if(water == -1 && !keyboard_check(vk_space)&&alarm[1]<0)
 
 CD++
 
-if global.venturehp < 1 {
+if global.venturehp <= 0 {
 	//todo:change player corpse to venture corpse
-	instance_create_layer(x,y,"Instances",oPlayerCorpse)
+	instance_create_layer(x,y,"Instances",oVentureCorpse)
 	instance_create_layer(x,y,"Instances",oDeathScreen)
+	instance_destroy(oPaintGun)
 	instance_destroy()
-	
 }
