@@ -1,7 +1,8 @@
-var detection_radius = 50;  // You can change this to whatever value you need
+var detection_radius = 400;  // You can change this to whatever value you need
 
 // Check if obj_enemy is within the radius
 if (distance_to_object(oMaya) <= detection_radius) || (distance_to_object(oVenture) <= detection_radius){	
+	
 	timer++
 
 	if timer > spawntime {
