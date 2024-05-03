@@ -1,4 +1,7 @@
-if(oVenture.water == 0)
+if(object_exists(oVenture))
 {
-	draw_self()
+	if(oVenture.water == 0)
+	{
+		draw_self()
+	}
 }
