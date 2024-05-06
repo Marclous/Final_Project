@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oWaxGod",
+  "%Name":"oShootTu1",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oWaxGod",
+  "name":"oShootTu1",
   "overriddenProperties":[],
   "parent":{
     "name":"Tutorial",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWaxGod",
-    "path":"sprites/sWaxGod/sWaxGod.yy",
+    "name":"sCheckpoint",
+    "path":"sprites/sCheckpoint/sCheckpoint.yy",
   },
   "spriteMaskId":null,
   "visible":true,
