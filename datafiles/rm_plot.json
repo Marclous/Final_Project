@@ -1,0 +1,463 @@
+{
+    "rm_plot":{
+        "dev_notes":"tutorial level for the first shooter",
+        "free_move":"true",
+        "lines":[
+            {"text": "WTF is this place?!"},
+            {
+                "speaker_sprite":"spr_wax_god",
+                "speaker":"???",
+                "text": "Welcome to the world of the wax."
+            },
+            {
+                "text": "World of the Wax?"
+            },
+            {
+                "choices":[
+                    {
+                        "text":"Who are you?",
+                        "lines":[
+                            {
+                                "speaker_sprite":"spr_wax_god",
+                                "speaker":"???",
+                                "text": "I am the god of the Wax.",
+                                "set_true":"recognize_god"
+                            }
+                        ]
+                    },
+                    {
+                        "text":"World of the wax??",
+                        "lines":[
+                            {
+                                "if_ture":"recognize_god",
+                                "lines":[
+                                    {
+                                        "speaker_sprite":"spr_wax_god",
+                                        "speaker":"Wax God",
+                                        "text": "Yes, World of the wax. Wax World."
+                                    },
+                                    {
+                                        "text": "*Whispering* What kind of explanation is this??"
+                                    },
+                                    {
+                                        "speaker_sprite":"spr_wax_god",
+                                        "speaker":"Wax God",
+                                        "text": "I can hear you."
+                                    }
+                                ]
+                            },
+                            {
+                                "if_false":"recognize_god",
+                                "lines":[
+                                    {
+                                        "speaker_sprite":"spr_wax_god",
+                                        "speaker":"???",
+                                        "text": "Yes, World of the wax. Wax World."
+                                    },
+                                    {
+                                        "text": "*Whispering* What kind of explanation is this??"
+                                    },
+                                    {
+                                        "speaker_sprite":"spr_wax_god",
+                                        "speaker":"???",
+                                        "text": "I can hear you."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "choices":[
+                    {
+                        "text":"Why am I here?",
+                        "lines":[
+                            {
+                                "speaker_sprite":"spr_wax_god",
+                                "speaker":"Wax God",
+                                "text":"Last year, you bought a box of candles and leave them beside the window."
+                            },
+                            {
+                                "speaker_sprite":"spr_wax_god",
+                                "speaker":"Wax God",
+                                "text":"And then you never think of them."
+                            },
+                            {
+                                "speaker_sprite":"spr_wax_god",
+                                "speaker":"Wax God",
+                                "text":"They are all melted right now."
+                            },
+                            {
+                                "speaker_sprite":"spr_wax_god",
+                                "speaker":"Wax God",
+                                "text":"You killed these candles without lighting them!"
+                            },
+                            {
+                                "speaker_sprite":"spr_wax_god",
+                                "speaker":"Wax God",
+                                "text":"Such a waste!"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "How should I get out of here?"
+                    },
+                    {
+                        "speaker_sprite":"spr_wax_god",
+                        "speaker":"Wax God",
+                        "text":"Look around. There are melted wax everywhere."
+                    },
+                    {
+                        "speaker_sprite":"spr_wax_god",
+                        "speaker":"Wax God",
+                        "text":"This boxed-wax-world is ruined because of you!"
+                    },
+                    {
+                        "text":"** How am I responsible to this?? **"
+                    },
+                    {
+                        "speaker_sprite":"spr_wax_god",
+                        "speaker":"Wax God",
+                        "text":"You need to collect all these wax and remake them back into candles!"
+                    },
+                    {
+                        "choices":[
+                            {
+                                "text":"What should I do?"
+                            }
+                        ]
+                    },
+                    {
+                        "speaker_sprite":"spr_wax_god",
+                        "speaker":"Wax God",
+                        "text":"You need to pay for what you did."
+                    },
+                    {
+                        "speaker_sprite":"spr_wax_god",
+                        "speaker":"Wax God",
+                        "text":"Complete each level to collect the wax."
+                    },
+                    {
+                        "text": "*Wax God is gone.*"
+                    },
+                    {
+                        "text":"This man is totally sick! They are just candles!"
+                    },
+                    {
+                        "speaker_sprite":"spr_wax_god",
+                        "speaker":"Wax God",
+                        "text":"I can still hear you."
+                    },
+                    {
+                        "text":"** What the fuck?! **"
+                    },
+                    {
+                        "text":"Let me out!!"
+                    },
+                    {
+                        "text": "* No Responses *"
+                    },
+                    {
+                        "text":"Fine! Guess I'll just have to do what he just said."
+                    }
+                ]   
+            }
+        ]
+    },
+    "rm_tutorial1":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of the rm_tutorial1",
+            "lines":[
+                {
+                    "text":"OMG gun. This is sick!"
+                },
+                {
+                    "text":"Wait, wait, wait wait wait!! What happened to my body?!"
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"As a punishment, you are a candle man right now."
+                },
+                {
+                    "text":"Fineeee! **Will I die if I'm lighted for a long time?**"
+                },
+                {
+                    "text":"But I haven't take my shooting lessons yet!"
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Hopefully you will be able to use it properly."
+                }
+            ]
+        }
+    },
+    "rm_level1":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of the rm_level1",
+            "lines":[
+                {
+                    "text":"Killer Maya is Here! Hahaha....AHHHHHH!"
+                }
+            ]
+        },
+        "ending":{
+            "dev_notes":"narrative at the end of the rm_level1",
+            "lines":[
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"You are less useless than I thought."
+                },
+                {
+                    "text":"Ha? How useless do you think I am?"
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"This is your award for collecting all the red waxes."
+                }
+            ]
+        }
+    },
+    "rm_tutorial2":{
+        "beginning":{
+            "dev_notes":"this dialogue should appear after the player switched the hero to vendure",
+            "lines":[
+                {
+                    "text":"OMG my body! It's back!"
+                },
+                {
+                    "text":"How can you call giving somebody's body back is an award?"
+                },
+                {
+                    "text":"I have my body back? Can I even sound more miserable?"
+                },
+                {
+                    "text":"OK let's see what my body can do in this piece of wax world."
+                }
+            ]
+        }
+    },
+    "rm_level2":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of rm_level2",
+            "lines":[
+                {
+                    "text":"Ha! Let's see what I can do with two bodies."
+                }
+            ]
+        },
+        "ending":{
+            "dev_notes":"narrative at the end of rm_level2",
+            "lines":[
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Conguatulations on collecting all the orange waxes."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"You will be awarded."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"But I need to remind you, this is just a beginning."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Wish you good luck."
+                }
+            ]
+        }
+    },
+    "rm_tutorial3":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of rm_tutorial3",
+            "lines":[
+                {
+                    "text":"What would be the reward for this time?"
+                }
+            ]
+        },
+        "middle":{
+            "dev_notes":"narrative after the UI page jumped out",
+            "lines":[
+                {
+                    "text":"New gun..."
+                },
+                {
+                    "text":"So FUCKING COOOL!!"
+                },
+                {
+                    "text":"You dumb batmans, wait to die!!"
+                }
+            ]
+        }
+    },
+    "rm_level3":{
+        "ending":{
+            "dev_notes":"narrative at the end of rm_level3",
+            "lines":[
+                {
+                    "text":"I AM the BEST! HaHa"
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"To be honest, I am surprised that you are still alive."
+                },
+                {
+                    "text":"*Upsetting* What do you mean?"
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Just telling the truth."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Things will be a lot harder after this level."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"The reward for collecting all the green waxes would be another gun."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Hope you can still laugh after next level."
+                }
+            ]
+        }
+    },
+    "rm_tutorial4":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of rm_tutorial4",
+            "lines":[
+                {
+                    "text":"New gun! Hahaha! I'm about to rule the wax world!"
+                }
+            ]
+        },
+        "middle":{
+            "dev_notes":"narrative appears after the UI page jumps out",
+            "lines":[
+                {
+                    "text":"Slay Maya!"
+                }
+            ]
+        }
+    },
+    "rm_level4":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of rm_level4",
+            "lines":[
+                {
+                    "text":"Hmm, no dumb batmans?"
+                },
+                {
+                    "text":"Seems like I don't need him to wish me good luck at all."
+                }
+            ]
+        },
+        "ending":{
+            "dev_notes":"narrative at the end of rm_level4",
+            "lines":[
+                {
+                    "text":"Shit, I'm so FUCKING tired."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"I warned ya."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Now you have collected red, orange, green and blue waxes."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Survive the last one."
+                }
+            ]
+        }
+    },
+    "rm_level5":{
+        "beginning":{
+            "dev_notes":"narrative at the beginning of rm_level5",
+            "lines":[
+                {
+                    "text":"I feel no sign of good luck..."
+                }
+            ]
+        },
+        "ending":{
+            "dev_notes":"narrative at the end of rm_level5",
+            "lines":[
+                {
+                    "text":"Finally the end. Phew..."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"I can't believe you made it."
+                },
+                {
+                    "text":"I thought God knows everything, or at least, my ability."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"I would say I didn't see any ability on you. Except wasting"
+                },
+                {
+                    "text":"??! You are mean, mean, Mean Mean God."
+                },
+                {
+                    "speaker":"Wax God",
+                    "speaker_sprite":"spr_wax_god",
+                    "text":"Nevermind, you made it. I will let you go back to the reality."
+                }
+            ]
+        }
+    },
+    "rm_ending_plot":{
+        "dev_notes":"the player wakes up finding themself in their bed",
+        "lines":[
+            {
+                "text":"I'm back! I'm back!"
+            },
+            {
+                "text":"It's like a dream..."
+            },
+            {
+                "text":"The candles!"
+            },
+            {
+                "choices":[
+                    {
+                        "text":"Check the window",
+                        "dev_notes": "switch the background sprite"
+                    }
+                ]
+            },
+            {
+                "text":"I should add my shooting lessons to the agenda..."
+            },
+            {
+                "text":"",
+                "dev_notes":"THE END."
+            }
+        ]
+    }
+}
