@@ -8,5 +8,3 @@ if restartKey {
 	instance_activate_all()
 }
 
-if instance_exists(oTextbox) instance_deactivate_all(1)
-else if !instance_exists(oTextbox) instance_activate_all()
