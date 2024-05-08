@@ -1,1 +1,1 @@
-startDialogue("Tutorial")
+if room == rm_plot startDialogue("Tutorial")

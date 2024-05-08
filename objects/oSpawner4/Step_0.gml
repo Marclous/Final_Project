@@ -26,7 +26,7 @@ if image_alpha<=0 instance_destroy()
 if place_meeting(x,y,oDamageEnemy) takeDamage()
 
 if gothit = false {
-		sprite_index = sSpawner
+		sprite_index = sSpawner4
 		
 	}
 
