@@ -15,7 +15,7 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0)
 var lastInputDirection = 0
 
 //Movement
-if room!=rm_plot{
+if room!=rm_plot && !instance_exists(oTextbox){
 xvelocity = lengthdir_x(inputMagnitude * walkSpeed, inputDirection)
 yvelocity = lengthdir_y(inputMagnitude * walkSpeed, inputDirection)
 }

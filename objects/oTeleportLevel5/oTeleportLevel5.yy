@@ -1,23 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oSpawner",
+  "%Name":"oTeleportLevel5",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSpawner",
+  "name":"oTeleportLevel5",
   "overriddenProperties":[],
   "parent":{
     "name":"Others",
     "path":"folders/Objects/Others.yy",
   },
-  "parentObjectId":{
-    "name":"oSolidWall",
-    "path":"objects/oSolidWall/oSolidWall.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSpawner",
-    "path":"sprites/sSpawner/sSpawner.yy",
+    "name":"sPurpleArrow",
+    "path":"sprites/sPurpleArrow/sPurpleArrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
