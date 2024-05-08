@@ -80,8 +80,10 @@ if room == rm_level4 && global.said4 == false {
 }
 if room == rm_level5 && global.said5 == false{
 	startDialogue("Level5Begin")
-	global.said55 = true
+	global.said5 = true
 }
+
+if room == rm_finale startDialogue("END")
 
 selectedweapon = 0
 if array_length(global.Playerweapons)>0 {

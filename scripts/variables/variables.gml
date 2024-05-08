@@ -5,3 +5,4 @@ global.said2 = false
 global.said3 = false
 global.said4 = false
 global.said5 = false
+global.said = false

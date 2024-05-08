@@ -109,7 +109,7 @@ global.topics[$ "Chose Where1"] = [
 	TEXT("** What the fuck?! **"),
 	TEXT("Let me out!!"),
 	TEXT("* No Responses *"),
-	TEXT("Fine! Guess I'll just have to do what he just said.",1)
+	TEXT("Fine! Guess I'll just have to do what he just said.",6)
 	
 	]
 	
@@ -138,7 +138,7 @@ global.topics[$ "Level1End"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("Ha? How useless do you think I am?"),
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
-	TEXT("This is your award for collecting all the red waxes.")
+	TEXT("This is your award for collecting all the red waxes.",1)
 	]
 	
 global.topics[$ "Tutorial2Begin"] = [
@@ -159,7 +159,7 @@ global.topics[$ "Level2End"] = [
 	TEXT("Conguatulations on collecting all the orange waxes."),
 	TEXT("You will be awarded."),
 	TEXT("But I need to remind you, this is just a beginning."),
-	TEXT("Wish you good luck.")
+	TEXT("Wish you good luck.",2)
 	]
 	
 global.topics[$ "Tutorial3Begin"] = [
@@ -174,7 +174,7 @@ global.topics[$ "Tutorial3Mid"] = [
 	TEXT("You dumb batmans, wait to die!!")
 	]
 	
-global.topics[$ "Level3Begin"] = [
+global.topics[$ "Level3End"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("I AM the BEST! HaHa"),
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
@@ -185,7 +185,7 @@ global.topics[$ "Level3Begin"] = [
 	TEXT("Just telling the truth."),
 	TEXT("Things will be a lot harder after this level."),
 	TEXT("The reward for collecting all the green waxes would be another gun."),
-	TEXT("Hope you can still laugh after next level.")
+	TEXT("Hope you can still laugh after next level.",3)
 	]
 	
 global.topics[$ "Tutorial4Begin"] = [
@@ -210,7 +210,7 @@ global.topics[$ "Level4End"] = [
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("I warned ya."),
 	TEXT("Now you have collected red, orange, green and blue waxes."),
-	TEXT("Survive the last one.")
+	TEXT("Survive the last one.",4)
 	]
 
 global.topics[$ "Level5Begin"] = [
@@ -230,7 +230,7 @@ global.topics[$ "Level5End"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("??! You are a mean, mean, Mean Mean God."),
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
-	TEXT("Nevermind, you made it. I will let you go back to the reality.")
+	TEXT("Nevermind, you made it. I will let you go back to the reality.",5)
 	]
 
 global.topics[$ "END"] = [

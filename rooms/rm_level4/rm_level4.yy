@@ -594,6 +594,7 @@
     {"name":"inst_264BC24","path":"rooms/rm_level4/rm_level4.yy",},
     {"name":"inst_179AEBBC","path":"rooms/rm_level4/rm_level4.yy",},
     {"name":"inst_4D0AEE55","path":"rooms/rm_level4/rm_level4.yy",},
+    {"name":"inst_5A169BFF","path":"rooms/rm_level4/rm_level4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1191,6 +1192,7 @@
         {"$GMRInstance":"","%Name":"inst_264BC24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_264BC24","objectId":{"name":"oSpawner4","path":"objects/oSpawner4/oSpawner4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":288.0,},
         {"$GMRInstance":"","%Name":"inst_179AEBBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_179AEBBC","objectId":{"name":"oSpawner4","path":"objects/oSpawner4/oSpawner4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":352.0,},
         {"$GMRInstance":"","%Name":"inst_4D0AEE55","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D0AEE55","objectId":{"name":"oSpawner4","path":"objects/oSpawner4/oSpawner4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":608.0,},
+        {"$GMRInstance":"","%Name":"inst_5A169BFF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A169BFF","objectId":{"name":"oTeleportLevel4","path":"objects/oTeleportLevel4/oTeleportLevel4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5860481,"scaleY":2.5625,"x":875.0,"y":549.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Decoration","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Decoration","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -351,-2147483648,4,50,51,52,53,-4,-2147483648,2,252,253,-35,-2147483648,2,14,15,-39,-2147483648,4,82,

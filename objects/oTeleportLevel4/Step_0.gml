@@ -1,4 +1,4 @@
 if (place_meeting(x,y, oMaya) || place_meeting(x,y, oVenture)) && !instance_exists(oEnemy) {
 
-	room_goto(rm_level5)
+	startDialogue("Level4End")
 }
