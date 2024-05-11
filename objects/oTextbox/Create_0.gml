@@ -109,6 +109,8 @@ setRoom = function(roomNum) {
 		room_goto(rm_finale)
 	}else if roomNum == 6 {
 		room_goto(rm_tutorial1)
+	}else if roomNum == 9 {
+		oWaxGod.visible = false
 	}
 }
 

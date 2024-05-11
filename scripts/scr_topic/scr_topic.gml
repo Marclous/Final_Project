@@ -71,6 +71,7 @@ global.topics[$ "Chose Who1"] = [
 	TEXT("** What the fuck?! **"),
 	TEXT("Let me out!!"),
 	TEXT("* No Responses *"),
+	TEXT("Fine! Guess I'll just have to do what he just said."),
 	TEXT("Fine! Guess I'll just have to do what he just said.",1)
 	]
 
@@ -100,7 +101,7 @@ global.topics[$ "Chose Where1"] = [
 	TEXT("You need to collect all these wax and remake them back into candles!"),
 	TEXT("You need to pay for what you did."),
 	TEXT("Complete each level to collect the wax."),
-	TEXT("*Wax God is gone.*"),
+	TEXT("*Wax God is gone.*",9),
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("This man is totally sick! They are just candles!"),
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
@@ -109,6 +110,7 @@ global.topics[$ "Chose Where1"] = [
 	TEXT("** What the fuck?! **"),
 	TEXT("Let me out!!"),
 	TEXT("* No Responses *"),
+	TEXT("Fine! Guess I'll just have to do what he just said."),
 	TEXT("Fine! Guess I'll just have to do what he just said.",6)
 	
 	]
@@ -138,11 +140,12 @@ global.topics[$ "Level1End"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("Ha? How useless do you think I am?"),
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
+	TEXT("This is your award for collecting all the red waxes."),
 	TEXT("This is your award for collecting all the red waxes.",1)
 	]
 	
 global.topics[$ "Tutorial2Begin"] = [
-	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Maya", sVentureTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("OMG my body! It's back!"),
 	TEXT("How can you call giving somebody's body back is an award?"),
 	TEXT("I have my body back? Can I even sound more miserable?"),
@@ -185,6 +188,7 @@ global.topics[$ "Level3End"] = [
 	TEXT("Just telling the truth."),
 	TEXT("Things will be a lot harder after this level."),
 	TEXT("The reward for collecting all the green waxes would be another gun."),
+	TEXT("Hope you can still laugh after next level."),
 	TEXT("Hope you can still laugh after next level.",3)
 	]
 	
@@ -230,6 +234,7 @@ global.topics[$ "Level5End"] = [
 	SPEAKER("Maya", sMayaTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("??! You are a mean, mean, Mean Mean God."),
 	SPEAKER("Wax God", sWaxGodTalk, PORTRAIT_SIDE.LEFT),
+	TEXT("Nevermind, you made it. I will let you go back to the reality."),
 	TEXT("Nevermind, you made it. I will let you go back to the reality.",5)
 	]
 

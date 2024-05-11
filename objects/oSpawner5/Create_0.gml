@@ -2,7 +2,7 @@ depth = -bbox_top
 
 timer = 0
 spawntime = 6*60
-hit_point = 150
+hit_point = 100
 dead = false
 gothit = false
 

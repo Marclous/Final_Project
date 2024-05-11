@@ -228,6 +228,7 @@
     {"id":{"name":"sVentureDie","path":"sprites/sVentureDie/sVentureDie.yy",},},
     {"id":{"name":"sVentureDive","path":"sprites/sVentureDive/sVentureDive.yy",},},
     {"id":{"name":"sVentureIdle","path":"sprites/sVentureIdle/sVentureIdle.yy",},},
+    {"id":{"name":"sVentureTalk","path":"sprites/sVentureTalk/sVentureTalk.yy",},},
     {"id":{"name":"sVentureRun","path":"sprites/sVentureRun/sVentureRun.yy",},},
     {"id":{"name":"sWall_1","path":"sprites/sWall_1/sWall_1.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},

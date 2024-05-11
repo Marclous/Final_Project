@@ -1,7 +1,7 @@
 {
       "blueRifle": {
         "sprite": "sBlueRifle",
-        "length": 29,
+        "length": 16,
         "bulletObj": "oRifleBullet",
         "cooldown": 9,
         "bulletNum": 1,
@@ -11,7 +11,7 @@
       },
       "blueShotgun": {
         "sprite": "sBlueShotgun",
-        "length": 29,
+        "length": 9,
         "bulletObj": "oShotgunBullet",
         "cooldown": 30,
         "bulletNum": 7,
@@ -21,7 +21,7 @@
       },
       "AssaultRifle": {
         "sprite": "sAssaultRifle",
-        "length": 34,
+        "length": 14,
         "bulletObj": "oAssaultRifleBullet",
         "cooldown": 3,
         "bulletNum": 3,

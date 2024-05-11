@@ -66,6 +66,7 @@
     {"name":"sPurpleArrow","order":6,"path":"sprites/sPurpleArrow/sPurpleArrow.yy",},
     {"name":"sRedArrow","order":2,"path":"sprites/sRedArrow/sRedArrow.yy",},
     {"name":"sSpawner5","order":7,"path":"sprites/sSpawner5/sSpawner5.yy",},
+    {"name":"sVentureTalk","order":2,"path":"sprites/sVentureTalk/sVentureTalk.yy",},
     {"name":"sVentureRun","order":1,"path":"sprites/sVentureRun/sVentureRun.yy",},
     {"name":"sWaxGodTalk","order":3,"path":"sprites/sWaxGodTalk/sWaxGodTalk.yy",},
     {"name":"sYellowArrow","order":4,"path":"sprites/sYellowArrow/sYellowArrow.yy",},
