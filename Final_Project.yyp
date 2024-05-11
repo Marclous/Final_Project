@@ -161,6 +161,8 @@
     {"id":{"name":"sDecorationRYGB","path":"sprites/sDecorationRYGB/sDecorationRYGB.yy",},},
     {"id":{"name":"sDecorationRYGBP","path":"sprites/sDecorationRYGBP/sDecorationRYGBP.yy",},},
     {"id":{"name":"sEffect","path":"sprites/sEffect/sEffect.yy",},},
+    {"id":{"name":"sEnding1","path":"sprites/sEnding1/sEnding1.yy",},},
+    {"id":{"name":"sEnding2","path":"sprites/sEnding2/sEnding2.yy",},},
     {"id":{"name":"sEnemyBullet","path":"sprites/sEnemyBullet/sEnemyBullet.yy",},},
     {"id":{"name":"sEnemyBulletDecal","path":"sprites/sEnemyBulletDecal/sEnemyBulletDecal.yy",},},
     {"id":{"name":"sEnemyCorpse","path":"sprites/sEnemyCorpse/sEnemyCorpse.yy",},},

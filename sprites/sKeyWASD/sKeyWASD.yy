@@ -23,7 +23,7 @@
   ],
   "name":"sKeyWASD",
   "nineSlice":null,
-  "origin":9,
+  "origin":3,
   "parent":{
     "name":"UI",
     "path":"folders/Sprites/UI.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":26,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

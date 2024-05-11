@@ -1523,6 +1523,7 @@
     {"name":"inst_7B366349","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_D468942","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_23423514","path":"rooms/rm_level5/rm_level5.yy",},
+    {"name":"inst_142C851","path":"rooms/rm_level5/rm_level5.yy",},
   ],
   "isDnd":false,
   "layers":[
