@@ -111,6 +111,8 @@ setRoom = function(roomNum) {
 		room_goto(rm_tutorial1)
 	}else if roomNum == 9 {
 		oWaxGod.visible = false
+	}else if roomNum == 10 {
+		oFinalBackground.image = 1
 	}
 }
 

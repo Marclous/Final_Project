@@ -239,13 +239,15 @@ global.topics[$ "Level5End"] = [
 	]
 
 global.topics[$ "END"] = [
+	SPEAKER("Maya", sVentureTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("I'm back! I'm back!"),
 	TEXT("It's like a dream..."),
 	CHOICE("The candles!",
-		OPTION("Check the window", "Window")
+		OPTION("Check the window", "Window",0,10)
 		)
 	]
 global.topics[$ "Window"] = [
+	SPEAKER("Maya", sVentureTalk, PORTRAIT_SIDE.LEFT),
 	TEXT("I should add my shooting lessons to the agenda..."),
 	]
 
