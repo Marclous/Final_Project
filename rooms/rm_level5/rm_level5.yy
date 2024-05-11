@@ -1516,6 +1516,7 @@
     {"name":"inst_1A3E41DC","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_4F2D9F37","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_7C7552C9","path":"rooms/rm_level5/rm_level5.yy",},
+    {"name":"inst_142C851","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_532414C","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_F4D09B4","path":"rooms/rm_level5/rm_level5.yy",},
     {"name":"inst_9AF6F6D","path":"rooms/rm_level5/rm_level5.yy",},

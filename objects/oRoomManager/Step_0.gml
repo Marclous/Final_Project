@@ -7,3 +7,4 @@ if restartKey {
 	instance_deactivate_object(oCamera)
 	instance_activate_all()
 }
+

@@ -14,13 +14,13 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0)
 var lastInputDirection = 0
 
 //Movement
-if(!stopMotion)
+if(!stopMotion) || !instance_exists(oTextbox)
 {
 	xvelocity = lengthdir_x(inputMagnitude * walkSpeed, inputDirection)
 	yvelocity = lengthdir_y(inputMagnitude * walkSpeed, inputDirection)
 }
 
-if(stopMotion)
+if(stopMotion) || instance_exists(oTextbox)
 {
 	xvelocity = 0
 	yvelocity = 0

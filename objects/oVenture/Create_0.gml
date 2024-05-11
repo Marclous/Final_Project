@@ -23,3 +23,8 @@ CD_Space = false
 
 
 instance_create_layer(x,y,"Instances",oPaintGun)
+
+if room == rm_tutorial2 && global.said == false{
+	startDialogue("Tutorial2Begin")
+	global.said = true
+}

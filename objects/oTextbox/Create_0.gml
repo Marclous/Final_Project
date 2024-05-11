@@ -98,6 +98,16 @@ setText = function(newText) {
 
 setRoom = function(roomNum) {
 	if roomNum == 1 {
+		room_goto(rm_tutorial2)
+	}else if roomNum == 2{
+		room_goto(rm_tutorial3)
+	}else if roomNum == 3{
+		room_goto(rm_tutorial4)
+	}else if roomNum == 4{
+		room_goto(rm_level5)
+	}else if roomNum == 5{
+		room_goto(rm_finale)
+	}else if roomNum == 6 {
 		room_goto(rm_tutorial1)
 	}
 }
