@@ -10,7 +10,8 @@ if textfade > 0 {
 	draw_set_font(fn_tutorial)
 	draw_set_alpha(textfade/textfade_max)
 	draw_set_color(c_white)
-	draw_text(x,y-text_y+16,text)
+	draw_sprite_ext(sKeyWASD,0,x,y,1,1,0,-1,textfade/textfade_max)
+	draw_text(x,y-text_y+16,text);
 }
 
 draw_set_alpha(1)
