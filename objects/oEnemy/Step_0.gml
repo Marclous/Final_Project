@@ -1,6 +1,7 @@
 randomize()
 var _collision = true
 var _getDamage = true
+if !instance_exists(oTextbox){
 switch state {
 	case EnemyState.Spawn:
 		if image_alpha < 1{
@@ -39,8 +40,8 @@ switch state {
         }
 	break;
 }
-
-if(allow_shoot == true) && instance_exists(oMaya){
+}
+if(allow_shoot == true) && instance_exists(oMaya) && !instance_exists(oTextbox){
 	_angle = point_direction(x,y,oMaya.x,oMaya.y)
 	direction = _angle
 	var effect_x = x + lengthdir_x(30, _angle);
@@ -63,7 +64,7 @@ if(allow_shoot == true) && instance_exists(oMaya){
 	allow_shoot = false;
 	alarm[2]= 60;
 	
-} else if (allow_shoot == true) && instance_exists(oVenture){
+} else if (allow_shoot == true) && instance_exists(oVenture) && !instance_exists(oTextbox){
 	_angle = point_direction(x,y,oVenture.x,oVenture.y)
 	direction = _angle
 	var effect_x = x + lengthdir_x(30, _angle);
