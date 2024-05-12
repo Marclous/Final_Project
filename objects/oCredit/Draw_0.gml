@@ -1,1 +1,1 @@
-draw_text(x,y,"Made By Marcus, Arial, Angel, and Chardin")
+draw_text(x,y,"Made By Marcus, Ariia, Angel, and Chardin")
