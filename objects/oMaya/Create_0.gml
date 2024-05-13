@@ -70,7 +70,7 @@ if room == rm_level2 && global.said2 == false{
 	startDialogue("Level2Begin")
 	global.said2 = true
 }
-if room == rm_level3 && global.said3 == false {
+if room == rm_level31 && global.said3 == false {
 	startDialogue("Level3Begin")
 	global.said3 = true
 }

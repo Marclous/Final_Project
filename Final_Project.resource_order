@@ -1,4 +1,8 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oTele","order":1,"path":"objects/oTele/oTele.yy",},
+    {"name":"rm_level31","order":1,"path":"rooms/rm_level31/rm_level31.yy",},
+    {"name":"rm_level3114","order":2,"path":"rooms/rm_level3114/rm_level3114.yy",},
+  ],
 }
